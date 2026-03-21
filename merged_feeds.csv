@@ -1,60 +1,60 @@
 name,url,rss_url,type,score,source_count,found_in
-PlanetScale Blog,https://planetscale.com/blog,https://planetscale.com/blog/rss.xml,Company,70,1,manual-curation
-Crunchy Data Blog,https://www.crunchydata.com/blog,https://www.crunchydata.com/blog/rss.xml,Company,65,1,manual-curation
-Marc Brooker,https://brooker.co.za/blog/,https://brooker.co.za/blog/rss.xml,Individual,85,1,manual-curation
-Scattered Thoughts,https://www.scattered-thoughts.net/,https://www.scattered-thoughts.net/atom.xml,Individual,80,1,manual-curation
+PlanetScale Blog,https://planetscale.com/blog,https://planetscale.com/blog/rss.xml,Company,50,1,manual-curation
+Crunchy Data Blog,https://www.crunchydata.com/blog,https://www.crunchydata.com/blog/rss.xml,Company,50,1,manual-curation
+Marc Brooker,https://brooker.co.za/blog/,https://brooker.co.za/blog/rss.xml,Individual,50,1,manual-curation
+Scattered Thoughts,https://www.scattered-thoughts.net/,https://www.scattered-thoughts.net/atom.xml,Individual,50,1,manual-curation
 Too Much Data Blog,https://www.tumuchdata.club/for_students/blog/,https://www.tumuchdata.club/index.xml,Individual,50,1,manual-curation
-Justin Jaffray (Buttondown),https://buttondown.com/jaffray/archive,https://buttondown.com/jaffray/rss,Individual,65,1,manual-curation
-Justin Jaffray,https://justinjaffray.com/posts/,https://justinjaffray.com/blog/index.xml,Individual,65,1,manual-curation
-Jan Nidzwetzki,https://jnidzwetzki.github.io/,https://jnidzwetzki.github.io/feed.xml,Individual,60,1,manual-curation
-Simon Eskildsen,https://sirupsen.com/,https://sirupsen.com/atom.xml,Individual,75,1,manual-curation
+Justin Jaffray (Buttondown),https://buttondown.com/jaffray/archive,https://buttondown.com/jaffray/rss,Individual,50,1,manual-curation
+Justin Jaffray,https://justinjaffray.com/posts/,https://justinjaffray.com/blog/index.xml,Individual,50,1,manual-curation
+Jan Nidzwetzki,https://jnidzwetzki.github.io/,https://jnidzwetzki.github.io/feed.xml,Individual,50,1,manual-curation
+Simon Eskildsen,https://sirupsen.com/,https://sirupsen.com/atom.xml,Individual,50,1,manual-curation
 Tudor Stanescu,https://tudor96stani.com/blog/,https://tudor96stani.com/atom.xml,Individual,50,1,manual-curation
 BitsxPages,https://www.bitsxpages.com/,https://www.bitsxpages.com/feed,Individual,50,1,manual-curation
-Baotiao,https://baotiao.github.io/,https://baotiao.github.io/feed.xml,Individual,55,1,manual-curation
-A. Jesse Jiryu Davis,https://emptysqua.re/blog/all-posts/,https://emptysqua.re/blog/index.xml,Individual,65,1,manual-curation
-Binary Igor,https://binaryigor.com/,https://binaryigor.com/feed.xml,Individual,55,1,manual-curation
-Murat Demirbas,https://muratbuffalo.blogspot.com/,https://muratbuffalo.blogspot.com/feeds/posts/default,Individual,80,1,manual-curation
-Materialized View,https://materializedview.io/,https://materializedview.io/feed,Company,65,1,manual-curation
-HammerDB Blog,https://www.hammerdb.com/casestudies.html,https://www.hammerdb.com/blog/feed,Company,55,1,manual-curation
-Database Architects,https://databasearchitects.blogspot.com/,https://databasearchitects.blogspot.com/feeds/posts/default,Individual,70,1,manual-curation
-Mark Callaghan (Small Datum),https://smalldatum.blogspot.com/,https://smalldatum.blogspot.com/feeds/posts/default,Individual,75,1,manual-curation
-Joe Hellerstein,https://jhellerstein.github.io/blog/,https://jhellerstein.github.io/blog/rss.xml,Individual,80,1,manual-curation
-Ivan Prisyazhnyy,https://sitano.github.io/,https://sitano.github.io/feed.xml,Individual,55,1,manual-curation
-Jeremy Cole,https://blog.jcole.us/category/mysql/,https://blog.jcole.us/feed/,Individual,70,1,manual-curation
-Pierre Zemb,https://pierrezemb.fr/posts/,https://pierrezemb.fr/rss.xml,Individual,65,1,manual-curation
-Dangling Pointers,https://danglingpointers.substack.com/archive,https://danglingpointers.substack.com/feed,Individual,60,1,manual-curation
-Laplab,https://laplab.me/posts/,https://laplab.me/posts/index.xml,Individual,55,1,manual-curation
-TigerBeetle Blog,https://tigerbeetle.com/blog/,https://tigerbeetle.com/blog/atom.xml,Company,80,1,manual-curation
-Transactional Blog,https://transactional.blog/,https://transactional.blog/feed.xml,Individual,75,1,manual-curation
-Oren Eini (Ayende),https://ayende.com/blog/tags/databases,https://ayende.com/blog/rss,Individual,65,1,manual-curation
-The Morning Paper,https://blog.acolyer.org/tag/datastores/,https://blog.acolyer.org/feed/,Individual,80,1,manual-curation
+Baotiao,https://baotiao.github.io/,https://baotiao.github.io/feed.xml,Individual,50,1,manual-curation
+A. Jesse Jiryu Davis,https://emptysqua.re/blog/all-posts/,https://emptysqua.re/blog/index.xml,Individual,50,1,manual-curation
+Binary Igor,https://binaryigor.com/,https://binaryigor.com/feed.xml,Individual,50,1,manual-curation
+Murat Demirbas,https://muratbuffalo.blogspot.com/,https://muratbuffalo.blogspot.com/feeds/posts/default,Individual,50,1,manual-curation
+Materialized View,https://materializedview.io/,https://materializedview.io/feed,Company,50,1,manual-curation
+HammerDB Blog,https://www.hammerdb.com/casestudies.html,https://www.hammerdb.com/blog/feed,Company,50,1,manual-curation
+Database Architects,https://databasearchitects.blogspot.com/,https://databasearchitects.blogspot.com/feeds/posts/default,Individual,50,1,manual-curation
+Mark Callaghan (Small Datum),https://smalldatum.blogspot.com/,https://smalldatum.blogspot.com/feeds/posts/default,Individual,50,1,manual-curation
+Joe Hellerstein,https://jhellerstein.github.io/blog/,https://jhellerstein.github.io/blog/rss.xml,Individual,50,1,manual-curation
+Ivan Prisyazhnyy,https://sitano.github.io/,https://sitano.github.io/feed.xml,Individual,50,1,manual-curation
+Jeremy Cole,https://blog.jcole.us/category/mysql/,https://blog.jcole.us/feed/,Individual,50,1,manual-curation
+Pierre Zemb,https://pierrezemb.fr/posts/,https://pierrezemb.fr/rss.xml,Individual,50,1,manual-curation
+Dangling Pointers,https://danglingpointers.substack.com/archive,https://danglingpointers.substack.com/feed,Individual,50,1,manual-curation
+Laplab,https://laplab.me/posts/,https://laplab.me/posts/index.xml,Individual,50,1,manual-curation
+TigerBeetle Blog,https://tigerbeetle.com/blog/,https://tigerbeetle.com/blog/atom.xml,Company,50,1,manual-curation
+Transactional Blog,https://transactional.blog/,https://transactional.blog/feed.xml,Individual,50,1,manual-curation
+Oren Eini (Ayende),https://ayende.com/blog/tags/databases,https://ayende.com/blog/rss,Individual,50,1,manual-curation
+The Morning Paper,https://blog.acolyer.org/tag/datastores/,https://blog.acolyer.org/feed/,Individual,50,1,manual-curation
 Shubham Razdan,https://shbhmrzd.github.io/,https://shbhmrzd.github.io/feed.xml,Individual,50,1,manual-curation
-All Things Distributed,https://www.allthingsdistributed.com/,https://www.allthingsdistributed.com/atom.xml,Individual,75,1,manual-curation
-Distributed Computing Musings,https://distributed-computing-musings.com/,https://distributed-computing-musings.com/feed/,Individual,65,1,manual-curation
-Distributed Data Store Blog,https://distributeddatastore.blogspot.com/,https://distributeddatastore.blogspot.com/feeds/posts/default,Individual,55,1,manual-curation
-Siddharth Jain,https://www.siddharthjain.dev/tags/storage-systems/,https://www.siddharthjain.dev/index.xml,Individual,55,1,manual-curation
-Dan Olivo,https://danolivo.substack.com/archive,https://danolivo.substack.com/feed,Individual,60,1,manual-curation
-PostgreSQL Verite,https://postgresql.verite.pro/blog/,https://postgresql.verite.pro/blog/feed.xml,Individual,65,1,manual-curation
-Phil Eaton,https://notes.eatonphil.com/,https://notes.eatonphil.com/rss.xml,Individual,85,1,manual-curation
-Brandur,https://brandur.org/articles,https://brandur.org/articles.atom,Individual,75,1,manual-curation
-Jack Vanlightly,https://jack-vanlightly.com/,https://jack-vanlightly.com/blog/rss.xml,Individual,80,1,manual-curation
-Shayon Mukherjee,https://www.shayon.dev/post/,https://www.shayon.dev/index.xml,Individual,55,1,manual-curation
+All Things Distributed,https://www.allthingsdistributed.com/,https://www.allthingsdistributed.com/atom.xml,Individual,50,1,manual-curation
+Distributed Computing Musings,https://distributed-computing-musings.com/,https://distributed-computing-musings.com/feed/,Individual,50,1,manual-curation
+Distributed Data Store Blog,https://distributeddatastore.blogspot.com/,https://distributeddatastore.blogspot.com/feeds/posts/default,Individual,50,1,manual-curation
+Siddharth Jain,https://www.siddharthjain.dev/tags/storage-systems/,https://www.siddharthjain.dev/index.xml,Individual,50,1,manual-curation
+Dan Olivo,https://danolivo.substack.com/archive,https://danolivo.substack.com/feed,Individual,50,1,manual-curation
+PostgreSQL Verite,https://postgresql.verite.pro/blog/,https://postgresql.verite.pro/blog/feed.xml,Individual,50,1,manual-curation
+Phil Eaton,https://notes.eatonphil.com/,https://notes.eatonphil.com/rss.xml,Individual,50,1,manual-curation
+Brandur,https://brandur.org/articles,https://brandur.org/articles.atom,Individual,50,1,manual-curation
+Jack Vanlightly,https://jack-vanlightly.com/,https://jack-vanlightly.com/blog/rss.xml,Individual,50,1,manual-curation
+Shayon Mukherjee,https://www.shayon.dev/post/,https://www.shayon.dev/index.xml,Individual,50,1,manual-curation
 Jacob Sherin,https://jacobsherin.com/,https://jacobsherin.com/feed/feed.xml,Individual,50,1,manual-curation
-Robert Haas,https://rhaas.blogspot.com/,https://rhaas.blogspot.com/feeds/posts/default,Individual,75,1,manual-curation
-Gunnar Morling,https://www.morling.dev/blog/,https://www.morling.dev/blog/index.xml,Individual,75,1,manual-curation
-Pierre Pinaraf,https://www.pinaraf.info/,https://www.pinaraf.info/feed/,Individual,55,1,manual-curation
-Databases Systems Blog,https://databases.systems/posts,https://databases.systems/posts/feed.xml,Individual,60,1,manual-curation
-Humayun (redixhumayun),https://redixhumayun.github.io/,https://redixhumayun.github.io/feed.xml,Individual,60,1,manual-curation
-Anantha Kumaran,https://ananthakumaran.in/,https://ananthakumaran.in/atom.xml,Individual,60,1,manual-curation
-Peter Eisentraut,https://peter.eisentraut.org/,http://peter.eisentraut.org/feed.xml,Individual,75,1,manual-curation
-Canoozie Blog,https://blog.canoozie.net/,https://blog.canoozie.net/rss/,Individual,55,1,manual-curation
-My DBA Notebook,https://mydbanotebook.org/posts/,https://mydbanotebook.org/posts/index.xml,Individual,55,1,manual-curation
-Kevin Sookocheff,https://sookocheff.com/tags/databases/,https://sookocheff.com/index.xml,Individual,60,1,manual-curation
-David Gomes,https://davidgomes.com/,https://davidgomes.com/rss/,Individual,60,1,manual-curation
-OrioleDB Blog,https://www.orioledb.com/blog,https://www.orioledb.com/blog/rss.xml,Company,70,1,manual-curation
+Robert Haas,https://rhaas.blogspot.com/,https://rhaas.blogspot.com/feeds/posts/default,Individual,50,1,manual-curation
+Gunnar Morling,https://www.morling.dev/blog/,https://www.morling.dev/blog/index.xml,Individual,50,1,manual-curation
+Pierre Pinaraf,https://www.pinaraf.info/,https://www.pinaraf.info/feed/,Individual,50,1,manual-curation
+Databases Systems Blog,https://databases.systems/posts,https://databases.systems/posts/feed.xml,Individual,50,1,manual-curation
+Humayun (redixhumayun),https://redixhumayun.github.io/,https://redixhumayun.github.io/feed.xml,Individual,50,1,manual-curation
+Anantha Kumaran,https://ananthakumaran.in/,https://ananthakumaran.in/atom.xml,Individual,50,1,manual-curation
+Peter Eisentraut,https://peter.eisentraut.org/,http://peter.eisentraut.org/feed.xml,Individual,50,1,manual-curation
+Canoozie Blog,https://blog.canoozie.net/,https://blog.canoozie.net/rss/,Individual,50,1,manual-curation
+My DBA Notebook,https://mydbanotebook.org/posts/,https://mydbanotebook.org/posts/index.xml,Individual,50,1,manual-curation
+Kevin Sookocheff,https://sookocheff.com/tags/databases/,https://sookocheff.com/index.xml,Individual,50,1,manual-curation
+David Gomes,https://davidgomes.com/,https://davidgomes.com/rss/,Individual,50,1,manual-curation
+OrioleDB Blog,https://www.orioledb.com/blog,https://www.orioledb.com/blog/rss.xml,Company,50,1,manual-curation
 Miguel Perez,https://migue.github.io/posts/,https://migue.github.io/index.xml,Individual,50,1,manual-curation
-FSGeek,https://fsgeek.ca/,https://fsgeek.ca/feed/,Individual,60,1,manual-curation
-Stephen Holiday,https://stephenholiday.com/notes/,https://feeds.feedburner.com/StephenHoliday,Individual,55,1,manual-curation
-Haider Zaidi (DBA),https://haiderzdbre.substack.com,https://haiderzdbre.substack.com/feed,Individual,55,1,manual-curation
-StarRocks Blog,https://www.starrocks.io/blog/,https://www.starrocks.io/blog/rss.xml,Company,65,1,manual-curation
-Tomas Vondra,https://vondra.me/,https://vondra.me/index.xml,Individual,70,1,manual-curation
+FSGeek,https://fsgeek.ca/,https://fsgeek.ca/feed/,Individual,50,1,manual-curation
+Stephen Holiday,https://stephenholiday.com/notes/,https://feeds.feedburner.com/StephenHoliday,Individual,50,1,manual-curation
+Haider Zaidi (DBA),https://haiderzdbre.substack.com,https://haiderzdbre.substack.com/feed,Individual,50,1,manual-curation
+StarRocks Blog,https://www.starrocks.io/blog/,https://www.starrocks.io/blog/rss.xml,Company,50,1,manual-curation
+Tomas Vondra,https://vondra.me/,https://vondra.me/index.xml,Individual,50,1,manual-curation
