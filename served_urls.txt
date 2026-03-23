@@ -1,0 +1,4 @@
+https://vondra.me/posts/stabilizing-benchmarks/
+https://vondra.me/posts/benchmarking-is-hard-sometimes/
+https://vondra.me/posts/playing-with-bolt-and-postgres/
+https://rhaas.blogspot.com/2025/07/one-year-of-hacking-workshops.html

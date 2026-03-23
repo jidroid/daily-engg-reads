@@ -21,6 +21,19 @@ FEED_TIMEOUT = 10
 MAX_RECENT_POSTS = 15
 MAX_RETRIES = 30
 NUM_CANDIDATE_BLOGS = 5
+SERVED_URLS_PATH = "served_urls.txt"
+
+
+def load_served_urls():
+    if not os.path.exists(SERVED_URLS_PATH):
+        return set()
+    with open(SERVED_URLS_PATH, encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
+
+
+def save_served_url(url):
+    with open(SERVED_URLS_PATH, "a", encoding="utf-8") as f:
+        f.write(url + "\n")
 
 
 def load_blogs(csv_path="merged_feeds.csv"):
@@ -35,7 +48,7 @@ def load_blogs(csv_path="merged_feeds.csv"):
     return blogs
 
 
-def fetch_best_post(blogs):
+def fetch_best_post(blogs, served_urls):
     """Sample NUM_CANDIDATE_BLOGS blogs, collect their posts, let Gemini pick the best."""
     weights = [max(1, int(row["score"])) for row in blogs]
     tried = set()
@@ -60,8 +73,11 @@ def fetch_best_post(blogs):
             )
             entries = [e for e in feed.entries[:MAX_RECENT_POSTS] if e.get("link")]
             for post in entries:
-                candidates.append((blog, post))
-                print(f"    {post.get('title', '')[:70]}")
+                if post["link"].strip() not in served_urls:
+                    candidates.append((blog, post))
+                    print(f"    {post.get('title', '')[:70]}")
+                else:
+                    print(f"    [skip-served] {post.get('title', '')[:70]}")
         except Exception as e:
             print(f"    Error: {e}")
 
@@ -342,15 +358,27 @@ def main():
     blogs = load_blogs()
     print(f"  {len(blogs)} unique feeds loaded")
 
-    print("Fetching best post across candidate blogs...")
-    blog, post = fetch_best_post(blogs)
+    served_urls = load_served_urls()
+    print(f"  {len(served_urls)} previously served URLs loaded")
+
+    blog, post = None, None
+    for attempt in range(3):
+        print(f"\nFetching best post (attempt {attempt + 1})...")
+        blog, post = fetch_best_post(blogs, served_urls)
+        if blog and post:
+            break
+        print("  No unseen posts found, retrying with new candidates...")
 
     if not blog or not post:
-        print("ERROR: Could not fetch any post after retries.")
+        print("ERROR: Could not fetch any unseen post after retries.")
         raise SystemExit(1)
 
+    post_url = post.get("link", "").strip()
     print(f"\nSelected: {blog['name']}")
     print(f"  Post: {post.get('title', '(no title)')}")
+
+    save_served_url(post_url)
+    print(f"  Saved to {SERVED_URLS_PATH}")
 
     html = generate_html(blog, post, len(blogs))
     with open("index.html", "w", encoding="utf-8") as f:
