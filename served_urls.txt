@@ -1,6 +1,5 @@
-https://vondra.me/posts/stabilizing-benchmarks/
-https://vondra.me/posts/benchmarking-is-hard-sometimes/
-https://vondra.me/posts/playing-with-bolt-and-postgres/
-https://rhaas.blogspot.com/2025/07/one-year-of-hacking-workshops.html
-https://notes.eatonphil.com/2026-02-25-i-started-a-company.html
+http://vondra.me/posts/stabilizing-benchmarks/
+http://vondra.me/posts/benchmarking-is-hard-sometimes/
+http://vondra.me/posts/playing-with-bolt-and-postgres/
+http://rhaas.blogspot.com/2025/07/one-year-of-hacking-workshops.html
 http://notes.eatonphil.com/2026-02-25-i-started-a-company.html
