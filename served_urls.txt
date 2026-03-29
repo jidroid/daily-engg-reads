@@ -6,3 +6,4 @@ http://notes.eatonphil.com/2026-02-25-i-started-a-company.html
 https://databases.systems/posts/collaborative-editor
 https://blog.canoozie.net/the-address-manager-a-deep-dive
 https://blog.canoozie.net/building-a-hypergraph-for-ai-generated-code
+https://materializedview.io/p/dataframes-multi-engine-queries-and
