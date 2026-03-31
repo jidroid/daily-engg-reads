@@ -8,3 +8,4 @@ https://blog.canoozie.net/the-address-manager-a-deep-dive
 https://blog.canoozie.net/building-a-hypergraph-for-ai-generated-code
 https://materializedview.io/p/dataframes-multi-engine-queries-and
 https://www.morling.dev/blog/you-dont-need-kafka-just-use-postgres-considered-harmful
+https://jhellerstein.github.io/blog/crdt-dont-read
