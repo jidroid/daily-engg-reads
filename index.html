@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Wednesday, April 8, 2026</title>
-  <meta property="og:title" content="Mutable atomic deletes with Parquet backed columnar tables on S3">
-  <meta property="og:description" content="In the previous post, I explored a Parquet on S3 design with tombstones for constant time deletes and a CAS updated manifest for snapshot isolation. This post extends that design. The focus is in file delete operations where we replace a Parquet row group and publish a new footer using S3 Multipart Upload (MPU) and UploadPartCopy without having to…">
+  <title>Daily Eng Read — Thursday, April 9, 2026</title>
+  <meta property="og:title" content="Cursor&#x27;s Debug Mode Is Arguably Its Best Feature">
+  <meta property="og:description" content="Back in December, Cursor announced &amp;quot;Debug Mode&amp;quot;. The way it works is fairly straightforward:User says &amp;quot;I want to fix this bug!!!&amp;quot;Cursor prompts the model to come up with several hypothesis for why the bug existsCursor prompts the model to add a bunch of instrumentation (in the form of HTTP log-requests) to better understand the…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Wednesday, April 8, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Thursday, April 9, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://www.shayon.dev/post/" target="_blank" rel="noopener">Shayon Mukherjee</a>
+      <a class="source" href="https://davidgomes.com/" target="_blank" rel="noopener">David Gomes</a>
       
     </div>
 
-    <h1>Mutable atomic deletes with Parquet backed columnar tables on S3</h1>
+    <h1>Cursor&#x27;s Debug Mode Is Arguably Its Best Feature</h1>
 
-    <div class="meta">Oct 12, 2025</div>
+    <div class="meta">by David Gomes · Feb 19, 2026</div>
 
-    <p class="excerpt">In the previous post, I explored a Parquet on S3 design with tombstones for constant time deletes and a CAS updated manifest for snapshot isolation. This post extends that design. The focus is in file delete operations where we replace a Parquet row group and publish a new footer using S3 Multipart Upload (MPU) and UploadPartCopy without having to…</p>
+    <p class="excerpt">Back in December, Cursor announced &amp;quot;Debug Mode&amp;quot;. The way it works is fairly straightforward:User says &amp;quot;I want to fix this bug!!!&amp;quot;Cursor prompts the model to come up with several hypothesis for why the bug existsCursor prompts the model to add a bunch of instrumentation (in the form of HTTP log-requests) to better understand the…</p>
 
-    <a class="btn" href="https://www.shayon.dev/post/2025/285/mutable-atomic-deletes-with-parquet-backed-columnar-tables-on-s3/" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://davidgomes.com/cursor-debug-mode/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
