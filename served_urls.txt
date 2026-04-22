@@ -10,3 +10,4 @@ https://distributeddatastore.blogspot.com/2026/02/how-kv-cache-is-revolutionizin
 https://strongly-typed-thoughts.net/blog/luminance_32bit
 https://arne.me/blog/brene-brown-on-productivity-and-self-worth
 https://cryptocode.github.io/blog/docs/machinecode
+https://materializedview.io/p/dataframes-multi-engine-queries-and
