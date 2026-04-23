@@ -11,3 +11,4 @@ https://strongly-typed-thoughts.net/blog/luminance_32bit
 https://arne.me/blog/brene-brown-on-productivity-and-self-worth
 https://cryptocode.github.io/blog/docs/machinecode
 https://materializedview.io/p/dataframes-multi-engine-queries-and
+https://blog.jcole.us/2019/09/30/reconsidering-access-paths-for-index-ordering-a-dangerous-optimization-and-a-fix

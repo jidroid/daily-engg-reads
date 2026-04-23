@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Wednesday, April 22, 2026</title>
-  <meta property="og:title" content="DataFrames, Multi-Engine Queries, and Xorq With Hussain Sultan">
-  <meta property="og:description" content="In my previous post, I mentioned that Martin and I were working on Designing Data Intensive Applications&amp;#8217;s batch chapter. The chapter is now available in pre-release on Safari Online, and (among other things) includes a section on DataFrames.While working on the DataFrame section, I was surprised to find how bifurcated the ecosystem remains.…">
+  <title>Daily Eng Read — Thursday, April 23, 2026</title>
+  <meta property="og:title" content="Reconsidering access paths for index ordering… a dangerous optimization… and a fix!">
+  <meta property="og:description" content="MySQL has had an interesting optimization for years now1, which has popped up from time to time: in certain circumstances, it may choose to use an index that is index-wise less efficient, but provides the resulting rows in order, to avoid a filesort of the result. What does this typically look like in production? A query that seems simple and easy…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Wednesday, April 22, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Thursday, April 23, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://materializedview.io/" target="_blank" rel="noopener">Materialized View</a>
+      <a class="source" href="https://blog.jcole.us/category/mysql/" target="_blank" rel="noopener">Jeremy Cole</a>
       
     </div>
 
-    <h1>DataFrames, Multi-Engine Queries, and Xorq With Hussain Sultan</h1>
+    <h1>Reconsidering access paths for index ordering… a dangerous optimization… and a fix!</h1>
 
-    <div class="meta">by Chris · Sep 2, 2025</div>
+    <div class="meta">by Jeremy Cole · Sep 30, 2019</div>
 
-    <p class="excerpt">In my previous post, I mentioned that Martin and I were working on Designing Data Intensive Applications&amp;#8217;s batch chapter. The chapter is now available in pre-release on Safari Online, and (among other things) includes a section on DataFrames.While working on the DataFrame section, I was surprised to find how bifurcated the ecosystem remains.…</p>
+    <p class="excerpt">MySQL has had an interesting optimization for years now1, which has popped up from time to time: in certain circumstances, it may choose to use an index that is index-wise less efficient, but provides the resulting rows in order, to avoid a filesort of the result. What does this typically look like in production? A query that seems simple and easy…</p>
 
-    <a class="btn" href="https://materializedview.io/p/dataframes-multi-engine-queries-and" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://blog.jcole.us/2019/09/30/reconsidering-access-paths-for-index-ordering-a-dangerous-optimization-and-a-fix/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
