@@ -15,3 +15,4 @@ https://blog.jcole.us/2019/09/30/reconsidering-access-paths-for-index-ordering-a
 https://shbhmrzd.github.io/software-engineering/ai/developer-tools/2026/03/07/setting-up-claude-code-as-a-java-dev-collaborator.html
 https://www.bitsxpages.com/p/understanding-lsm-trees-via-read
 https://vondra.me/posts/benchmarking-is-hard-sometimes
+https://www.vinniefalco.com/p/wg21-croydon-trip-report
