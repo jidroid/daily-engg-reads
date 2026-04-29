@@ -17,3 +17,4 @@ https://www.bitsxpages.com/p/understanding-lsm-trees-via-read
 https://vondra.me/posts/benchmarking-is-hard-sometimes
 https://www.vinniefalco.com/p/wg21-croydon-trip-report
 https://blog.acolyer.org/2021/02/08/the-ants-and-the-pheromones
+https://www.ryanliptak.com/blog/source-vs-goldsrc-movement-slopes
