@@ -19,3 +19,4 @@ https://www.vinniefalco.com/p/wg21-croydon-trip-report
 https://blog.acolyer.org/2021/02/08/the-ants-and-the-pheromones
 https://www.ryanliptak.com/blog/source-vs-goldsrc-movement-slopes
 https://sirupsen.com/metrics
+https://shbhmrzd.github.io/compilers/ai/systems/2026/02/12/evaluating-claude-c-compiler.html
