@@ -27,3 +27,4 @@ https://blog.acolyer.org/2020/10/19/the-case-for-a-learned-sorting-algorithm
 https://strongly-typed-thoughts.net/blog/burnout
 https://migue.github.io/posts/formal-methods-introduction
 https://nickmonad.blog/2023/static-site-generators-not-just-for-blogs
+https://mydbanotebook.org/posts/what-does-insert-0-1-actually-tell-you
