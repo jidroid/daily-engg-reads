@@ -30,3 +30,4 @@ https://nickmonad.blog/2023/static-site-generators-not-just-for-blogs
 https://mydbanotebook.org/posts/what-does-insert-0-1-actually-tell-you
 https://buttondown.com/jaffray/archive/solving-cryptic-crosswords-with-egraphs
 https://redixhumayun.github.io/databases/2024/06/18/building-an-lsm-engine-part-i.html
+https://tumuchdata.club/for_partners
