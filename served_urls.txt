@@ -33,3 +33,4 @@ https://redixhumayun.github.io/databases/2024/06/18/building-an-lsm-engine-part-
 https://tumuchdata.club/for_partners
 https://fsgeek.ca/2025/11/24/the-risks-of-using-gemini-code
 https://brandur.org/disallow-unknown-fields
+https://atempleton.bearblog.dev/from-11m-to-326m-how-multithreading-made-astroz-30x-faster
