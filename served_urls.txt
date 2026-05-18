@@ -36,3 +36,4 @@ https://brandur.org/disallow-unknown-fields
 https://atempleton.bearblog.dev/from-11m-to-326m-how-multithreading-made-astroz-30x-faster
 https://distributed-computing-musings.com/2025/12/cloud-bits-beyond-pings-checks-for-cloud-native-reliability
 https://sookocheff.com/post/business/seven-powers-of-platform-teams
+https://www.vinniefalco.com/p/sovereignty-by-disruption
