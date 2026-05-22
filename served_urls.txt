@@ -40,3 +40,4 @@ https://www.vinniefalco.com/p/sovereignty-by-disruption
 https://stephenholiday.com/articles/2013/smtp-email-relay-for-gmail-oozie-hadoop/index.html
 https://sirupsen.com/napkin/problem-10-mysql-transactions-per-second
 https://migue.github.io/posts/influx-storage-tsi-component
+https://strongly-typed-thoughts.net/blog/dont_use_default
