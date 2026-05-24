@@ -42,3 +42,4 @@ https://sirupsen.com/napkin/problem-10-mysql-transactions-per-second
 https://migue.github.io/posts/influx-storage-tsi-component
 https://strongly-typed-thoughts.net/blog/dont_use_default
 https://mydbanotebook.org/posts/the-mcd-your-rosetta-stone-for-turning-we-need-a-database-into-actual-requirements
+https://migue.github.io/posts/influx-storage-tsm-component
