@@ -47,3 +47,4 @@ https://feyor.sh/blog/godbolt-in-emacs-with-disaster-and-zig
 https://antonz.org/solod-v0-1
 https://lalinsky.com/2026/05/11/async-io-in-zig-016-today.html
 https://www.bitsxpages.com/p/sorted-string-tables-sst-from-first
+https://pierrezemb.fr/posts/specs-are-back
