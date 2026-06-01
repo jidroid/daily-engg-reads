@@ -49,3 +49,4 @@ https://lalinsky.com/2026/05/11/async-io-in-zig-016-today.html
 https://www.bitsxpages.com/p/sorted-string-tables-sst-from-first
 https://pierrezemb.fr/posts/specs-are-back
 https://www.hammerdb.com/blog/uncategorized/what-is-a-benchmark
+https://distributed-computing-musings.com/2025/02/observability-following-the-breadcrumbs-a-journey-through-distributed-tracing
