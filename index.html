@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Monday, June 1, 2026</title>
-  <meta property="og:title" content="Observability: Following the Breadcrumbs – A Journey Through Distributed Tracing">
-  <meta property="og:description" content="&amp;#8220;Observability is the lens through which the invisible becomes visible, turning complex systems into understandable narratives.&amp;#8220; So before taking a detour to understand the role OpenTelemetry plays in observability ecosystem, as part of the last post we dove into monitoring. We saw how tools such as Prometheus &amp;amp; Grafana can be used…">
+  <title>Daily Eng Read — Tuesday, June 2, 2026</title>
+  <meta property="og:title" content="Mutable atomic deletes with Parquet backed columnar tables on S3">
+  <meta property="og:description" content="In the previous post, I explored a Parquet on S3 design with tombstones for constant time deletes and a CAS updated manifest for snapshot isolation. This post extends that design. The focus is in file delete operations where we replace a Parquet row group and publish a new footer using S3 Multipart Upload (MPU) and UploadPartCopy without having to…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Monday, June 1, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Tuesday, June 2, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://distributed-computing-musings.com/" target="_blank" rel="noopener">Distributed Computing Musings</a>
+      <a class="source" href="https://www.shayon.dev/post/" target="_blank" rel="noopener">Shayon Mukherjee</a>
       
     </div>
 
-    <h1>Observability: Following the Breadcrumbs – A Journey Through Distributed Tracing</h1>
+    <h1>Mutable atomic deletes with Parquet backed columnar tables on S3</h1>
 
-    <div class="meta">by varunu28 · Feb 8, 2025</div>
+    <div class="meta">Oct 12, 2025</div>
 
-    <p class="excerpt">&amp;#8220;Observability is the lens through which the invisible becomes visible, turning complex systems into understandable narratives.&amp;#8220; So before taking a detour to understand the role OpenTelemetry plays in observability ecosystem, as part of the last post we dove into monitoring. We saw how tools such as Prometheus &amp;amp; Grafana can be used…</p>
+    <p class="excerpt">In the previous post, I explored a Parquet on S3 design with tombstones for constant time deletes and a CAS updated manifest for snapshot isolation. This post extends that design. The focus is in file delete operations where we replace a Parquet row group and publish a new footer using S3 Multipart Upload (MPU) and UploadPartCopy without having to…</p>
 
-    <a class="btn" href="https://distributed-computing-musings.com/2025/02/observability-following-the-breadcrumbs-a-journey-through-distributed-tracing/" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://www.shayon.dev/post/2025/285/mutable-atomic-deletes-with-parquet-backed-columnar-tables-on-s3/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
