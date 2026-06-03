@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Tuesday, June 2, 2026</title>
-  <meta property="og:title" content="Mutable atomic deletes with Parquet backed columnar tables on S3">
-  <meta property="og:description" content="In the previous post, I explored a Parquet on S3 design with tombstones for constant time deletes and a CAS updated manifest for snapshot isolation. This post extends that design. The focus is in file delete operations where we replace a Parquet row group and publish a new footer using S3 Multipart Upload (MPU) and UploadPartCopy without having to…">
+  <title>Daily Eng Read — Wednesday, June 3, 2026</title>
+  <meta property="og:title" content="Three Binary Tricks">
+  <meta property="og:description" content="I have been tinkering with non-database stuff recently and I don&#x27;t really have any of it in a place to share something fun about. So in the interim, here is a small collection of some tricks I like a lot. I like bitwise tricks a lot. Here&#x27;s a couple that are not particularly useful, but are fun and cool. If you like these, you should read Hacker&#x27;s…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Tuesday, June 2, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Wednesday, June 3, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://www.shayon.dev/post/" target="_blank" rel="noopener">Shayon Mukherjee</a>
+      <a class="source" href="https://buttondown.com/jaffray/archive" target="_blank" rel="noopener">Justin Jaffray (Buttondown)</a>
       
     </div>
 
-    <h1>Mutable atomic deletes with Parquet backed columnar tables on S3</h1>
+    <h1>Three Binary Tricks</h1>
 
-    <div class="meta">Oct 12, 2025</div>
+    <div class="meta">May 25, 2026</div>
 
-    <p class="excerpt">In the previous post, I explored a Parquet on S3 design with tombstones for constant time deletes and a CAS updated manifest for snapshot isolation. This post extends that design. The focus is in file delete operations where we replace a Parquet row group and publish a new footer using S3 Multipart Upload (MPU) and UploadPartCopy without having to…</p>
+    <p class="excerpt">I have been tinkering with non-database stuff recently and I don&#x27;t really have any of it in a place to share something fun about. So in the interim, here is a small collection of some tricks I like a lot. I like bitwise tricks a lot. Here&#x27;s a couple that are not particularly useful, but are fun and cool. If you like these, you should read Hacker&#x27;s…</p>
 
-    <a class="btn" href="https://www.shayon.dev/post/2025/285/mutable-atomic-deletes-with-parquet-backed-columnar-tables-on-s3/" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://buttondown.com/jaffray/archive/three-binary-tricks/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
