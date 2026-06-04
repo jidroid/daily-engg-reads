@@ -52,3 +52,4 @@ https://www.hammerdb.com/blog/uncategorized/what-is-a-benchmark
 https://distributed-computing-musings.com/2025/02/observability-following-the-breadcrumbs-a-journey-through-distributed-tracing
 https://www.shayon.dev/post/2025/285/mutable-atomic-deletes-with-parquet-backed-columnar-tables-on-s3
 https://buttondown.com/jaffray/archive/three-binary-tricks
+https://jhellerstein.github.io/blog/two-commitments
