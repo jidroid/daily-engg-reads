@@ -53,3 +53,4 @@ https://distributed-computing-musings.com/2025/02/observability-following-the-br
 https://www.shayon.dev/post/2025/285/mutable-atomic-deletes-with-parquet-backed-columnar-tables-on-s3
 https://buttondown.com/jaffray/archive/three-binary-tricks
 https://jhellerstein.github.io/blog/two-commitments
+https://emptysqua.re/blog/the-kid-is-not-my-son
