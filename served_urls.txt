@@ -55,3 +55,4 @@ https://buttondown.com/jaffray/archive/three-binary-tricks
 https://jhellerstein.github.io/blog/two-commitments
 https://emptysqua.re/blog/the-kid-is-not-my-son
 https://www.starrocks.io/blog/escaping-the-small-file-trap-how-starrocks-optimizes-bulk-ingestion
+https://brooker.co.za/blog/2025/12/16/natural-language.html
