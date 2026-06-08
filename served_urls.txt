@@ -56,3 +56,4 @@ https://jhellerstein.github.io/blog/two-commitments
 https://emptysqua.re/blog/the-kid-is-not-my-son
 https://www.starrocks.io/blog/escaping-the-small-file-trap-how-starrocks-optimizes-bulk-ingestion
 https://brooker.co.za/blog/2025/12/16/natural-language.html
+https://muratbuffalo.blogspot.com/2026/06/acm-cais-conference-on-ai-and-agentic.html
