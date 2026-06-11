@@ -59,3 +59,4 @@ https://brooker.co.za/blog/2025/12/16/natural-language.html
 https://muratbuffalo.blogspot.com/2026/06/acm-cais-conference-on-ai-and-agentic.html
 https://binaryigor.com/centralized-vs-decentralized-identity-tradeoffs.html
 https://en.liujiacai.net/2023/06/10/troubleshoot-tramp-hang
+https://smalldatum.blogspot.com/2026/04/the-insert-benchmark-vs-mariadb-102-to_8.html
