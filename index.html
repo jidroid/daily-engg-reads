@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Thursday, June 11, 2026</title>
-  <meta property="og:title" content="The Insert Benchmark vs MariaDB 10.2 to 13.0 on a 32-core server">
-  <meta property="og:description" content="This has results for MariaDB versions 10.2 through 13.0 vs the&amp;nbsp;Insert Benchmark&amp;nbsp;on a 32-core server. The goal is to see how performance changes over time to find regressions or highlight improvements. My previous post has results from a 24-core server.&amp;nbsp; Differences between these servers include:RAM - 32-core server has 128G, 24-core…">
+  <title>Daily Eng Read — Friday, June 12, 2026</title>
+  <meta property="og:title" content="Soft Deletion Probably Isn&#x27;t Worth It">
+  <meta property="og:description" content="Anyone who&amp;rsquo;s seen a couple different production database environments is likely familiar with the &amp;ldquo;soft deletion&amp;rdquo; pattern &amp;ndash; instead of deleting data directly via DELETE statement, tables get an extra deleted_at timestamp and deletion is performed with an update statement instead: UPDATE foo SET deleted_at = now() WHERE id =…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Thursday, June 11, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Friday, June 12, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://smalldatum.blogspot.com/" target="_blank" rel="noopener">Mark Callaghan (Small Datum)</a>
+      <a class="source" href="https://brandur.org/articles" target="_blank" rel="noopener">Brandur</a>
       
     </div>
 
-    <h1>The Insert Benchmark vs MariaDB 10.2 to 13.0 on a 32-core server</h1>
+    <h1>Soft Deletion Probably Isn&#x27;t Worth It</h1>
 
-    <div class="meta">by Mark Callaghan (noreply@blogger.com) · Apr 8, 2026</div>
+    <div class="meta">by Brandur Leach · Jul 19, 2022</div>
 
-    <p class="excerpt">This has results for MariaDB versions 10.2 through 13.0 vs the&amp;nbsp;Insert Benchmark&amp;nbsp;on a 32-core server. The goal is to see how performance changes over time to find regressions or highlight improvements. My previous post has results from a 24-core server.&amp;nbsp; Differences between these servers include:RAM - 32-core server has 128G, 24-core…</p>
+    <p class="excerpt">Anyone who&amp;rsquo;s seen a couple different production database environments is likely familiar with the &amp;ldquo;soft deletion&amp;rdquo; pattern &amp;ndash; instead of deleting data directly via DELETE statement, tables get an extra deleted_at timestamp and deletion is performed with an update statement instead: UPDATE foo SET deleted_at = now() WHERE id =…</p>
 
-    <a class="btn" href="https://smalldatum.blogspot.com/2026/04/the-insert-benchmark-vs-mariadb-102-to_8.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://brandur.org/soft-deletion" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
