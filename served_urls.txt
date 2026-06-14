@@ -62,3 +62,4 @@ https://en.liujiacai.net/2023/06/10/troubleshoot-tramp-hang
 https://smalldatum.blogspot.com/2026/04/the-insert-benchmark-vs-mariadb-102-to_8.html
 https://brandur.org/soft-deletion
 https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer/understanding-rsa
+https://www.vinniefalco.com/p/the-empty-chair
