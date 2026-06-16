@@ -64,3 +64,4 @@ https://brandur.org/soft-deletion
 https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer/understanding-rsa
 https://www.vinniefalco.com/p/the-empty-chair
 https://en.liujiacai.net/2021/05/21/emacs-package
+https://tumuchdata.club/post/self-healing-3
