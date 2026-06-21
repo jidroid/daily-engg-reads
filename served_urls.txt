@@ -69,3 +69,4 @@ https://planetscale.com/blog/database-egress
 https://buttondown.com/jaffray/archive/simulating-queueing-2
 https://strongly-typed-thoughts.net/blog/hid_and_msi_keyboards
 https://blog.canoozie.net/the-address-manager-a-deep-dive
+https://feyor.sh/blog/the-singularity-ate-my-news-reader
