@@ -71,3 +71,4 @@ https://strongly-typed-thoughts.net/blog/hid_and_msi_keyboards
 https://blog.canoozie.net/the-address-manager-a-deep-dive
 https://feyor.sh/blog/the-singularity-ate-my-news-reader
 https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer/meet-in-the-middle-attack
+https://muratbuffalo.blogspot.com/2026/06/our-collective-bike-shed-moment.html
