@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Tuesday, June 23, 2026</title>
-  <meta property="og:title" content="Our Collective Bike Shed Moment">
-  <meta property="og:description" content="In 1957, Parkinson postulated his &quot;Law of Triviality&quot; using a fictitious committee reviewing plans for a nuclear power plant. The reactor design gets 10 minutes because nobody understands it, so nobody argues. The bike shed gets 45 minutes because everyone has opinions about the paint color.I feel like we are living this committee meeting at scale…">
+  <title>Daily Eng Read — Wednesday, June 24, 2026</title>
+  <meta property="og:title" content="Scattered notes on MariaDB redo log internals and file checkpoints.">
+  <meta property="og:description" content="Redo log structure The database log (aka redo log) is used to ensure data integrity in the case of a crash or unexpected shutdown. It records changes made to the database before they are actually written (?) so that they can be replayed during recovery. Redo log is stored in ib_logfileX files. These files consist of the header (512 bytes and 2 LSN…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Tuesday, June 23, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Wednesday, June 24, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://muratbuffalo.blogspot.com/" target="_blank" rel="noopener">Murat Demirbas</a>
+      <a class="source" href="https://sitano.github.io/" target="_blank" rel="noopener">Ivan Prisyazhnyy</a>
       
     </div>
 
-    <h1>Our Collective Bike Shed Moment</h1>
+    <h1>Scattered notes on MariaDB redo log internals and file checkpoints.</h1>
 
-    <div class="meta">by Murat (noreply@blogger.com) · Jun 20, 2026</div>
+    <div class="meta">by Ivan · Jul 7, 2025</div>
 
-    <p class="excerpt">In 1957, Parkinson postulated his &quot;Law of Triviality&quot; using a fictitious committee reviewing plans for a nuclear power plant. The reactor design gets 10 minutes because nobody understands it, so nobody argues. The bike shed gets 45 minutes because everyone has opinions about the paint color.I feel like we are living this committee meeting at scale…</p>
+    <p class="excerpt">Redo log structure The database log (aka redo log) is used to ensure data integrity in the case of a crash or unexpected shutdown. It records changes made to the database before they are actually written (?) so that they can be replayed during recovery. Redo log is stored in ib_logfileX files. These files consist of the header (512 bytes and 2 LSN…</p>
 
-    <a class="btn" href="https://muratbuffalo.blogspot.com/2026/06/our-collective-bike-shed-moment.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="http://sitano.github.io/mariadb/innodb/redolog/recovery/2025/07/07/notes-on-mariadb-redo-log/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
