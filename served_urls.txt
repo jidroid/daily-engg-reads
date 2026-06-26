@@ -74,3 +74,4 @@ https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer
 https://muratbuffalo.blogspot.com/2026/06/our-collective-bike-shed-moment.html
 https://sitano.github.io/mariadb/innodb/redolog/recovery/2025/07/07/notes-on-mariadb-redo-log
 https://shbhmrzd.github.io/ai/systems/performance/optimization/kernel/2026/02/01/kernel-optimisation-learning-journey.html
+https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer/confusion-diffusion-and-substitution-permutation-networks
