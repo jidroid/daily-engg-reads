@@ -77,3 +77,4 @@ https://shbhmrzd.github.io/ai/systems/performance/optimization/kernel/2026/02/01
 https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer/confusion-diffusion-and-substitution-permutation-networks
 https://rhaas.blogspot.com/2025/07/one-year-of-hacking-workshops.html
 https://brandur.org/minimal-analytics
+https://arne.me/blog/emacs-config-from-scratch-part-three
