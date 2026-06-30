@@ -78,3 +78,4 @@ https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer
 https://rhaas.blogspot.com/2025/07/one-year-of-hacking-workshops.html
 https://brandur.org/minimal-analytics
 https://arne.me/blog/emacs-config-from-scratch-part-three
+https://www.openmymind.net/On-AI
