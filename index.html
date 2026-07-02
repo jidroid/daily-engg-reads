@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Wednesday, July 1, 2026</title>
-  <meta property="og:title" content="Designing Rust FDB Workloads That Actually Find Bugs">
-  <meta property="og:description" content="After one trillion CPU-hours of simulation testing, FoundationDB has been stress-tested under conditions far worse than any production environment. Network partitions, disk failures, Byzantine faults. FDB handles them all. But what about your code? Your layer sits on top of FDB. Your indexes, your transaction logic, your retry handling. How do you…">
+  <title>Daily Eng Read — Thursday, July 2, 2026</title>
+  <meta property="og:title" content="Cache Me If You Can">
+  <meta property="og:description" content="How come making a struct in Zig less densely packed can give a huge performance increase, with far less variability? This post takes a look at false sharing and how it can be caused by packed data layouts and unintended field reorderings. While packing data closely together can be beneficial due to cache locality, false sharing must be taken into…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Wednesday, July 1, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Thursday, July 2, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://pierrezemb.fr/posts/" target="_blank" rel="noopener">Pierre Zemb</a>
+      <a class="source" href="https://cryptocode.github.io/blog/" target="_blank" rel="noopener">cryptocode</a>
       
     </div>
 
-    <h1>Designing Rust FDB Workloads That Actually Find Bugs</h1>
+    <h1>Cache Me If You Can</h1>
 
-    <div class="meta">by Pierre Zemb · Dec 9, 2025</div>
+    <div class="meta">Jul 9, 2023</div>
 
-    <p class="excerpt">After one trillion CPU-hours of simulation testing, FoundationDB has been stress-tested under conditions far worse than any production environment. Network partitions, disk failures, Byzantine faults. FDB handles them all. But what about your code? Your layer sits on top of FDB. Your indexes, your transaction logic, your retry handling. How do you…</p>
+    <p class="excerpt">How come making a struct in Zig less densely packed can give a huge performance increase, with far less variability? This post takes a look at false sharing and how it can be caused by packed data layouts and unintended field reorderings. While packing data closely together can be beneficial due to cache locality, false sharing must be taken into…</p>
 
-    <a class="btn" href="https://pierrezemb.fr/posts/writing-rust-fdb-workloads-that-find-bugs/" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://cryptocode.github.io/blog/docs/falsesharing/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>

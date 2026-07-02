@@ -80,3 +80,4 @@ https://brandur.org/minimal-analytics
 https://arne.me/blog/emacs-config-from-scratch-part-three
 https://www.openmymind.net/On-AI
 https://pierrezemb.fr/posts/writing-rust-fdb-workloads-that-find-bugs
+https://cryptocode.github.io/blog/docs/falsesharing
