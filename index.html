@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Thursday, July 2, 2026</title>
-  <meta property="og:title" content="Cache Me If You Can">
-  <meta property="og:description" content="How come making a struct in Zig less densely packed can give a huge performance increase, with far less variability? This post takes a look at false sharing and how it can be caused by packed data layouts and unintended field reorderings. While packing data closely together can be beneficial due to cache locality, false sharing must be taken into…">
+  <title>Daily Eng Read — Friday, July 3, 2026</title>
+  <meta property="og:title" content="MySQL/PostgreSQL Slot-based Buffer Manager Pin/buf_block_fix operator">
+  <meta property="og:description" content="在 MySQL/PostgreSQL Buffer Pool 里面有一个 Pin 操作 — PostgreSQL 叫 Pin, MySQL InnoDB 叫 buf_block_fix / io_fix. 这些操作本质上都是把一个 page “pin” buffer pool 的某个位置上. 为什么在其他系统里很少见到这种代码? 答案是 PG 和 InnoDB 的 buffer pool 都用了同一种架构 — Slot-based Buffer Manager. 这种架构直接决定了 Pin 这个操作必须存在. Slot-based Buffer Manager 结构 启动时, buffer pool 被切成 N 个固定大小的 slot (InnoDB 是 16KB, PG 是 8KB).…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Thursday, July 2, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Friday, July 3, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://cryptocode.github.io/blog/" target="_blank" rel="noopener">cryptocode</a>
+      <a class="source" href="https://baotiao.github.io/" target="_blank" rel="noopener">Baotiao</a>
       
     </div>
 
-    <h1>Cache Me If You Can</h1>
+    <h1>MySQL/PostgreSQL Slot-based Buffer Manager Pin/buf_block_fix operator</h1>
 
-    <div class="meta">Jul 9, 2023</div>
+    <div class="meta">by baotiao · May 7, 2026</div>
 
-    <p class="excerpt">How come making a struct in Zig less densely packed can give a huge performance increase, with far less variability? This post takes a look at false sharing and how it can be caused by packed data layouts and unintended field reorderings. While packing data closely together can be beneficial due to cache locality, false sharing must be taken into…</p>
+    <p class="excerpt">在 MySQL/PostgreSQL Buffer Pool 里面有一个 Pin 操作 — PostgreSQL 叫 Pin, MySQL InnoDB 叫 buf_block_fix / io_fix. 这些操作本质上都是把一个 page “pin” buffer pool 的某个位置上. 为什么在其他系统里很少见到这种代码? 答案是 PG 和 InnoDB 的 buffer pool 都用了同一种架构 — Slot-based Buffer Manager. 这种架构直接决定了 Pin 这个操作必须存在. Slot-based Buffer Manager 结构 启动时, buffer pool 被切成 N 个固定大小的 slot (InnoDB 是 16KB, PG 是 8KB).…</p>
 
-    <a class="btn" href="https://cryptocode.github.io/blog/docs/falsesharing/" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="http://baotiao.github.io/2026/05/07/slot-based-buffer-manager.html" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>

@@ -81,3 +81,4 @@ https://arne.me/blog/emacs-config-from-scratch-part-three
 https://www.openmymind.net/On-AI
 https://pierrezemb.fr/posts/writing-rust-fdb-workloads-that-find-bugs
 https://cryptocode.github.io/blog/docs/falsesharing
+https://baotiao.github.io/2026/05/07/slot-based-buffer-manager.html
