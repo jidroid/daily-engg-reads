@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Friday, July 3, 2026</title>
-  <meta property="og:title" content="MySQL/PostgreSQL Slot-based Buffer Manager Pin/buf_block_fix operator">
-  <meta property="og:description" content="在 MySQL/PostgreSQL Buffer Pool 里面有一个 Pin 操作 — PostgreSQL 叫 Pin, MySQL InnoDB 叫 buf_block_fix / io_fix. 这些操作本质上都是把一个 page “pin” buffer pool 的某个位置上. 为什么在其他系统里很少见到这种代码? 答案是 PG 和 InnoDB 的 buffer pool 都用了同一种架构 — Slot-based Buffer Manager. 这种架构直接决定了 Pin 这个操作必须存在. Slot-based Buffer Manager 结构 启动时, buffer pool 被切成 N 个固定大小的 slot (InnoDB 是 16KB, PG 是 8KB).…">
+  <title>Daily Eng Read — Saturday, July 4, 2026</title>
+  <meta property="og:title" content="Why PostgreSQL major version upgrades are hard">
+  <meta property="og:description" content="Upgrades between PostgreSQL major versions are famously annoying. You can’t just install the server binaries and restart, because the format of the data directory is incompatible. Why is that? Why can’t we just keep the data format compatible? Perhaps surprisingly, the data format is actually mostly compatible, but not completely. There are just a…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Friday, July 3, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Saturday, July 4, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://baotiao.github.io/" target="_blank" rel="noopener">Baotiao</a>
+      <a class="source" href="https://peter.eisentraut.org/" target="_blank" rel="noopener">Peter Eisentraut</a>
       
     </div>
 
-    <h1>MySQL/PostgreSQL Slot-based Buffer Manager Pin/buf_block_fix operator</h1>
+    <h1>Why PostgreSQL major version upgrades are hard</h1>
 
-    <div class="meta">by baotiao · May 7, 2026</div>
+    <div class="meta">by Peter Eisentraut · Nov 26, 2024</div>
 
-    <p class="excerpt">在 MySQL/PostgreSQL Buffer Pool 里面有一个 Pin 操作 — PostgreSQL 叫 Pin, MySQL InnoDB 叫 buf_block_fix / io_fix. 这些操作本质上都是把一个 page “pin” buffer pool 的某个位置上. 为什么在其他系统里很少见到这种代码? 答案是 PG 和 InnoDB 的 buffer pool 都用了同一种架构 — Slot-based Buffer Manager. 这种架构直接决定了 Pin 这个操作必须存在. Slot-based Buffer Manager 结构 启动时, buffer pool 被切成 N 个固定大小的 slot (InnoDB 是 16KB, PG 是 8KB).…</p>
+    <p class="excerpt">Upgrades between PostgreSQL major versions are famously annoying. You can’t just install the server binaries and restart, because the format of the data directory is incompatible. Why is that? Why can’t we just keep the data format compatible? Perhaps surprisingly, the data format is actually mostly compatible, but not completely. There are just a…</p>
 
-    <a class="btn" href="http://baotiao.github.io/2026/05/07/slot-based-buffer-manager.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="http://peter.eisentraut.org/blog/2024/11/26/why-postgresql-major-version-upgrades-are-hard" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
