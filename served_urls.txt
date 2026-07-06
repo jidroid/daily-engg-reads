@@ -84,3 +84,4 @@ https://cryptocode.github.io/blog/docs/falsesharing
 https://baotiao.github.io/2026/05/07/slot-based-buffer-manager.html
 https://peter.eisentraut.org/blog/2024/11/26/why-postgresql-major-version-upgrades-are-hard
 https://davidgomes.com/cursor-debug-mode
+https://ananthakumaran.in/2026/06/10/uses-this.html
