@@ -88,3 +88,4 @@ https://ananthakumaran.in/2026/06/10/uses-this.html
 https://pierrezemb.fr/posts/from-arc-to-box-one-deref-bound
 https://jack-vanlightly.com/blog/2026/6/10/kafka-share-groups-and-parallelizing-consumption-part-3-client-local-parallelism
 https://davidgomes.com/running-a-sub-2h50m-marathon
+https://andrewkelley.me/post/renting-is-for-suckers.html
