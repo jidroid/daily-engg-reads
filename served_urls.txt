@@ -94,3 +94,4 @@ https://ziglang.org/devlog/2026/#2026-06-30
 https://ananthakumaran.in/2026/04/22/moving-tenant-across-postgresql-instances.html
 https://antonz.org/solod-v0-2
 https://shbhmrzd.github.io/ai/ml-foundations/llm-training/2026/07/11/using-the-trained-model.html
+https://databasearchitects.blogspot.com/2025/11/comparing-integers-and-doubles.html
