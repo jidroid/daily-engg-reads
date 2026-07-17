@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Thursday, July 16, 2026</title>
-  <meta property="og:title" content="Comparing Integers and Doubles">
-  <meta property="og:description" content="During automated testing we stumbled upon a problem that boiled down to transitive comparisons: If a=b, and a=c, when we assumed that b=c. Unfortunately that is not always the case, at least not in all systems. Consider the following SQL query:select a=b, a=c, b=c from (values( 1234567890123456789.0::double precision, 1234567890123456788::bigint,…">
+  <title>Daily Eng Read — Friday, July 17, 2026</title>
+  <meta property="og:title" content="The Insert Benchmark vs MariaDB 10.2 to 13.0 on a 24-core server">
+  <meta property="og:description" content="This has results for MariaDB versions 10.2 through 13.0 vs the&amp;nbsp;Insert Benchmark&amp;nbsp;on a 24-core server. The goal is to see how performance changes over time to find regressions or highlight improvements.MariaDB 13.0.0 is faster than 10.2.30 on most benchmark steps and otherwise as fast as 10.2.30. This is a great result.tl;drfor a CPU-bound…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Thursday, July 16, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Friday, July 17, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://databasearchitects.blogspot.com/" target="_blank" rel="noopener">Database Architects</a>
+      <a class="source" href="https://smalldatum.blogspot.com/" target="_blank" rel="noopener">Mark Callaghan (Small Datum)</a>
       
     </div>
 
-    <h1>Comparing Integers and Doubles</h1>
+    <h1>The Insert Benchmark vs MariaDB 10.2 to 13.0 on a 24-core server</h1>
 
-    <div class="meta">by Thomas Neumann (noreply@blogger.com) · Nov 10, 2025</div>
+    <div class="meta">by Mark Callaghan (noreply@blogger.com) · Apr 8, 2026</div>
 
-    <p class="excerpt">During automated testing we stumbled upon a problem that boiled down to transitive comparisons: If a=b, and a=c, when we assumed that b=c. Unfortunately that is not always the case, at least not in all systems. Consider the following SQL query:select a=b, a=c, b=c from (values( 1234567890123456789.0::double precision, 1234567890123456788::bigint,…</p>
+    <p class="excerpt">This has results for MariaDB versions 10.2 through 13.0 vs the&amp;nbsp;Insert Benchmark&amp;nbsp;on a 24-core server. The goal is to see how performance changes over time to find regressions or highlight improvements.MariaDB 13.0.0 is faster than 10.2.30 on most benchmark steps and otherwise as fast as 10.2.30. This is a great result.tl;drfor a CPU-bound…</p>
 
-    <a class="btn" href="https://databasearchitects.blogspot.com/2025/11/comparing-integers-and-doubles.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://smalldatum.blogspot.com/2026/04/the-insert-benchmark-vs-mariadb-102-to.html" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
