@@ -96,3 +96,4 @@ https://antonz.org/solod-v0-2
 https://shbhmrzd.github.io/ai/ml-foundations/llm-training/2026/07/11/using-the-trained-model.html
 https://databasearchitects.blogspot.com/2025/11/comparing-integers-and-doubles.html
 https://smalldatum.blogspot.com/2026/04/the-insert-benchmark-vs-mariadb-102-to.html
+https://muratbuffalo.blogspot.com/2026/06/5-lessons-at-50.html
