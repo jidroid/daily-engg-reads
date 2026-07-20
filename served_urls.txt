@@ -98,3 +98,4 @@ https://databasearchitects.blogspot.com/2025/11/comparing-integers-and-doubles.h
 https://smalldatum.blogspot.com/2026/04/the-insert-benchmark-vs-mariadb-102-to.html
 https://muratbuffalo.blogspot.com/2026/06/5-lessons-at-50.html
 https://notes.eatonphil.com/2026-06-15-doing-the-rounds.html
+https://arne.me/blog/i-lived-7-days-without-a-smartphone
