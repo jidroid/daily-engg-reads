@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Wednesday, July 22, 2026</title>
-  <meta property="og:title" content="Selecting a character set for MySQL and MariaDB clients">
-  <meta property="og:description" content="&amp;nbsp;MySQL and MariaDB have many character-set related options, perhaps too many:character_set_clientcharacter_set_connectioncharacter_set_databasecharacter_set_filesystemcharacter_set_resultscharacter_set_servercharacter_set_systemThis is a topic that I don&#x27;t know much about and I am still far from an expert. My focus has been other DBMS topics.…">
+  <title>Daily Eng Read — Thursday, July 23, 2026</title>
+  <meta property="og:title" content="Napkin Problem 21: Index Merges vs Composite Indexes in Postgres and MySQL">
+  <meta property="og:description" content="While working with Readwise on optimizing their database for the impending launch of their Reader product, I found myself asking the question: How much faster is a composite index compared to letting the database do an index merge of multiple indexes? Consider this query: SELECT count(*) /* matches ~100 rows out of 10M */ FROM table WHERE int1000…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Wednesday, July 22, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Thursday, July 23, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://smalldatum.blogspot.com/" target="_blank" rel="noopener">Mark Callaghan (Small Datum)</a>
+      <a class="source" href="https://sirupsen.com/" target="_blank" rel="noopener">Simon Eskildsen</a>
       
     </div>
 
-    <h1>Selecting a character set for MySQL and MariaDB clients</h1>
+    <h1>Napkin Problem 21: Index Merges vs Composite Indexes in Postgres and MySQL</h1>
 
-    <div class="meta">by Mark Callaghan (noreply@blogger.com) · Mar 29, 2026</div>
+    <div class="meta">by Simon Eskildsen (simon@sirupsen.com) · Nov 26, 2022</div>
 
-    <p class="excerpt">&amp;nbsp;MySQL and MariaDB have many character-set related options, perhaps too many:character_set_clientcharacter_set_connectioncharacter_set_databasecharacter_set_filesystemcharacter_set_resultscharacter_set_servercharacter_set_systemThis is a topic that I don&#x27;t know much about and I am still far from an expert. My focus has been other DBMS topics.…</p>
+    <p class="excerpt">While working with Readwise on optimizing their database for the impending launch of their Reader product, I found myself asking the question: How much faster is a composite index compared to letting the database do an index merge of multiple indexes? Consider this query: SELECT count(*) /* matches ~100 rows out of 10M */ FROM table WHERE int1000…</p>
 
-    <a class="btn" href="https://smalldatum.blogspot.com/2026/03/selecting-character-set-for-mysql-and.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://sirupsen.com/index-merges" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
