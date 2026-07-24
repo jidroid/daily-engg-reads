@@ -102,3 +102,4 @@ https://arne.me/blog/i-lived-7-days-without-a-smartphone
 https://laplab.me/posts/buttons
 https://smalldatum.blogspot.com/2026/03/selecting-character-set-for-mysql-and.html
 https://sirupsen.com/index-merges
+https://www.hammerdb.com/blog/uncategorized/hammerdb-v6-0-performance-profile-comparison
