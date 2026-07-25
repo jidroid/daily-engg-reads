@@ -103,3 +103,4 @@ https://laplab.me/posts/buttons
 https://smalldatum.blogspot.com/2026/03/selecting-character-set-for-mysql-and.html
 https://sirupsen.com/index-merges
 https://www.hammerdb.com/blog/uncategorized/hammerdb-v6-0-performance-profile-comparison
+https://www.morling.dev/blog/improved-column-reader-api-geospatial-support-hardwood-1-0-0-cr1-available
