@@ -108,3 +108,4 @@ https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z
 https://smalldatum.blogspot.com/2026/06/the-insert-benchmark-on-small-server-io.html
 https://jnidzwetzki.github.io/2025/07/05/postgresql-flamegraph.html
 https://stephenholiday.com/articles/2012/monitor-your-python-app-with-fnordmetric/index.html
+https://migue.github.io/posts/2026-05-22-farewell-github
