@@ -111,3 +111,4 @@ https://stephenholiday.com/articles/2012/monitor-your-python-app-with-fnordmetri
 https://migue.github.io/posts/2026-05-22-farewell-github
 https://pierrezemb.fr/posts/why-apache-avro-needs-two-schemas
 https://jhellerstein.github.io/blog/crdt-dont-read
+https://lalinsky.com/2026/07/17/better-synchronization-primitives-for-zig-std-io.html
