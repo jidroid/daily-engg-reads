@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Sunday, August 2, 2026</title>
-  <meta property="og:title" content="Better synchronization primitives for Zig’s `std.Io`">
-  <meta property="og:description" content="Zig’s std.Io interface, introduced in version 0.16, comes with a number of synchronization primitives, from low-level ones like std.Io.Mutex and std.Io.Condition to higher-level ones like std.Io.Queue. These are all implemented on top of the futexWait/futexWake functions in the std.Io vtable. There are three problems with them: 1) They do not work…">
+  <title>Daily Eng Read — Monday, August 3, 2026</title>
+  <meta property="og:title" content="Kafka Share Groups and Parallelizing Consumption - Part 2: Producer Batches and share.acquire.mode">
+  <meta property="og:description" content="All tests were executed against Kafka 4.3.0 using Dimster.&amp;nbsp;In the last post we used simulated consumer processing time to reveal how important it is to set an appropriate value for max.poll.records to ensure the consumer parallelism that we expect. With a uniform distribution of messages over partitions, the rule of thumb was a value somewhat…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Sunday, August 2, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Monday, August 3, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://lalinsky.com/" target="_blank" rel="noopener">Lukas Lalinsky</a>
+      <a class="source" href="https://jack-vanlightly.com/" target="_blank" rel="noopener">Jack Vanlightly</a>
       
     </div>
 
-    <h1>Better synchronization primitives for Zig’s `std.Io`</h1>
+    <h1>Kafka Share Groups and Parallelizing Consumption - Part 2: Producer Batches and share.acquire.mode</h1>
 
-    <div class="meta">by Lukáš Lalinský (lukas@lalinsky.com) · Jul 17, 2026</div>
+    <div class="meta">by Jack Vanlightly · May 27, 2026</div>
 
-    <p class="excerpt">Zig’s std.Io interface, introduced in version 0.16, comes with a number of synchronization primitives, from low-level ones like std.Io.Mutex and std.Io.Condition to higher-level ones like std.Io.Queue. These are all implemented on top of the futexWait/futexWake functions in the std.Io vtable. There are three problems with them: 1) They do not work…</p>
+    <p class="excerpt">All tests were executed against Kafka 4.3.0 using Dimster.&amp;nbsp;In the last post we used simulated consumer processing time to reveal how important it is to set an appropriate value for max.poll.records to ensure the consumer parallelism that we expect. With a uniform distribution of messages over partitions, the rule of thumb was a value somewhat…</p>
 
-    <a class="btn" href="https://lalinsky.com/2026/07/17/better-synchronization-primitives-for-zig-std-io.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://jack-vanlightly.com/blog/2026/5/27/kafka-share-groups-and-parallelizing-consumption-part-2-producer-batches-and-shareacquiremode" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
