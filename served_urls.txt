@@ -115,3 +115,4 @@ https://lalinsky.com/2026/07/17/better-synchronization-primitives-for-zig-std-io
 https://jack-vanlightly.com/blog/2026/5/27/kafka-share-groups-and-parallelizing-consumption-part-2-producer-batches-and-shareacquiremode
 https://justinjaffray.com/timely-dataflow-and-total-order
 https://00f.net/2026/06/23/webassembly-runtimes-2026
+https://materializedview.io/p/duckdb-is-not-a-data-warehouse
