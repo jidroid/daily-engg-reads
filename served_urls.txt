@@ -116,3 +116,4 @@ https://jack-vanlightly.com/blog/2026/5/27/kafka-share-groups-and-parallelizing-
 https://justinjaffray.com/timely-dataflow-and-total-order
 https://00f.net/2026/06/23/webassembly-runtimes-2026
 https://materializedview.io/p/duckdb-is-not-a-data-warehouse
+https://jnidzwetzki.github.io/2025/05/18/building-a-query-plan-explorer.html
