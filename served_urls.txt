@@ -118,3 +118,4 @@ https://00f.net/2026/06/23/webassembly-runtimes-2026
 https://materializedview.io/p/duckdb-is-not-a-data-warehouse
 https://jnidzwetzki.github.io/2025/05/18/building-a-query-plan-explorer.html
 https://distributeddatastore.blogspot.com/2022/09/rocksdb-environment.html
+https://justinjaffray.com/joins-13-ways
