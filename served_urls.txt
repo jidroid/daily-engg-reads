@@ -121,3 +121,4 @@ https://distributeddatastore.blogspot.com/2022/09/rocksdb-environment.html
 https://justinjaffray.com/joins-13-ways
 https://sitano.github.io/perf/kernel/2023/08/18/how-to-debug-linux-kernel-api
 https://www.hammerdb.com/blog/uncategorized/hammerdb-v6-0-response-times-percentiles-and-reservoir-sampling
+https://muratbuffalo.blogspot.com/2026/05/the-two-abstractions-of-system-design.html
