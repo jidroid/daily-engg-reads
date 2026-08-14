@@ -123,3 +123,4 @@ https://sitano.github.io/perf/kernel/2023/08/18/how-to-debug-linux-kernel-api
 https://www.hammerdb.com/blog/uncategorized/hammerdb-v6-0-response-times-percentiles-and-reservoir-sampling
 https://muratbuffalo.blogspot.com/2026/05/the-two-abstractions-of-system-design.html
 https://smalldatum.blogspot.com/2026/06/the-insert-benchmark-on-small-server.html
+https://vondra.me/posts/dont-give-postgres-too-much-memory-even-on-busy-systems

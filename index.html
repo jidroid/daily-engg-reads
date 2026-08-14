@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Thursday, August 13, 2026</title>
-  <meta property="og:title" content="The insert benchmark on a small server, cached workload : Postgres 19 beta1">
-  <meta property="og:description" content="This has results for Postgres versions 19 beta1, 18.4 and 17.10 with the Insert Benchmark on a small server using a cached and CPU-bound workload.Postgres continues to be boring in a good way. It is hard to find performance regressions.&amp;nbsp;tl;drI don&#x27;t see regressions here in 19 beta1I see some improvements here in 19 beta1index create (l.x) is…">
+  <title>Daily Eng Read — Friday, August 14, 2026</title>
+  <meta property="og:title" content="Don&#x27;t give Postgres too much memory (even on busy systems)">
+  <meta property="og:description" content="A couple weeks ago I posted about how setting maintenance_work_mem too high may make things slower. Which can be surprising, as the intuition is that memory makes things faster. I got an e-mail about that post, asking if the conclusion would change on a busy system. That&amp;rsquo;s a really good question, so let&amp;rsquo;s look at it. To paraphrase the…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Thursday, August 13, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Friday, August 14, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://smalldatum.blogspot.com/" target="_blank" rel="noopener">Mark Callaghan (Small Datum)</a>
+      <a class="source" href="https://vondra.me/" target="_blank" rel="noopener">Tomas Vondra</a>
       
     </div>
 
-    <h1>The insert benchmark on a small server, cached workload : Postgres 19 beta1</h1>
+    <h1>Don&#x27;t give Postgres too much memory (even on busy systems)</h1>
 
-    <div class="meta">by Mark Callaghan (noreply@blogger.com) · Jun 11, 2026</div>
+    <div class="meta">Dec 23, 2025</div>
 
-    <p class="excerpt">This has results for Postgres versions 19 beta1, 18.4 and 17.10 with the Insert Benchmark on a small server using a cached and CPU-bound workload.Postgres continues to be boring in a good way. It is hard to find performance regressions.&amp;nbsp;tl;drI don&#x27;t see regressions here in 19 beta1I see some improvements here in 19 beta1index create (l.x) is…</p>
+    <p class="excerpt">A couple weeks ago I posted about how setting maintenance_work_mem too high may make things slower. Which can be surprising, as the intuition is that memory makes things faster. I got an e-mail about that post, asking if the conclusion would change on a busy system. That&amp;rsquo;s a really good question, so let&amp;rsquo;s look at it. To paraphrase the…</p>
 
-    <a class="btn" href="https://smalldatum.blogspot.com/2026/06/the-insert-benchmark-on-small-server.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://vondra.me/posts/dont-give-postgres-too-much-memory-even-on-busy-systems/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
