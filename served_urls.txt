@@ -125,3 +125,4 @@ https://muratbuffalo.blogspot.com/2026/05/the-two-abstractions-of-system-design.
 https://smalldatum.blogspot.com/2026/06/the-insert-benchmark-on-small-server.html
 https://vondra.me/posts/dont-give-postgres-too-much-memory-even-on-busy-systems
 https://jack-vanlightly.com/blog/2025/12/4/the-durable-function-tree-part-2
+https://nickmonad.blog/2023/nostr-verification
