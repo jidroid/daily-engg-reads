@@ -126,3 +126,4 @@ https://smalldatum.blogspot.com/2026/06/the-insert-benchmark-on-small-server.htm
 https://vondra.me/posts/dont-give-postgres-too-much-memory-even-on-busy-systems
 https://jack-vanlightly.com/blog/2025/12/4/the-durable-function-tree-part-2
 https://nickmonad.blog/2023/nostr-verification
+https://brandur.org/two-phase-render
