@@ -129,3 +129,4 @@ https://nickmonad.blog/2023/nostr-verification
 https://brandur.org/two-phase-render
 https://ohadravid.github.io/posts/2023-07-put-a-pin-on-that
 https://antonz.org/relying-on-go
+https://mydbanotebook.org/posts/its-not-magic-its-method
