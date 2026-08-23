@@ -132,3 +132,4 @@ https://antonz.org/relying-on-go
 https://mydbanotebook.org/posts/its-not-magic-its-method
 https://jhellerstein.github.io/blog/new-home
 https://www.morling.dev/blog/hardwood-reaches-beta-s3-predicate-push-down-cli
+https://www.openmymind.net/Arena-Allocators-and-ArrayLists
