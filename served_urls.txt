@@ -134,3 +134,4 @@ https://jhellerstein.github.io/blog/new-home
 https://www.morling.dev/blog/hardwood-reaches-beta-s3-predicate-push-down-cli
 https://www.openmymind.net/Arena-Allocators-and-ArrayLists
 https://www.morling.dev/blog/you-dont-need-kafka-just-use-postgres-considered-harmful
+https://www.vinniefalco.com/p/bitcoin-core-the-self-sealing-institution
