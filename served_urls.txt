@@ -136,3 +136,4 @@ https://www.openmymind.net/Arena-Allocators-and-ArrayLists
 https://www.morling.dev/blog/you-dont-need-kafka-just-use-postgres-considered-harmful
 https://www.vinniefalco.com/p/bitcoin-core-the-self-sealing-institution
 https://sookocheff.com/post/ai/blogging-in-the-age-of-ai
+https://jnidzwetzki.github.io/2024/02/28/trace-postgresql-row-level-locks.html
