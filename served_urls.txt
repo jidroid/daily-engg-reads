@@ -139,3 +139,4 @@ https://sookocheff.com/post/ai/blogging-in-the-age-of-ai
 https://jnidzwetzki.github.io/2024/02/28/trace-postgresql-row-level-locks.html
 https://pierrezemb.fr/posts/why-fakes-beat-mocks-and-testcontainers
 https://distributed-computing-musings.com/2026/06/cloud-bits-dancing-through-failures-saga-pattern-for-resilient-microservicescloud-bits
+https://materializedview.io/p/virtual-machines-are-getting-better
