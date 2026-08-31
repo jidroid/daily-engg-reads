@@ -140,3 +140,4 @@ https://jnidzwetzki.github.io/2024/02/28/trace-postgresql-row-level-locks.html
 https://pierrezemb.fr/posts/why-fakes-beat-mocks-and-testcontainers
 https://distributed-computing-musings.com/2026/06/cloud-bits-dancing-through-failures-saga-pattern-for-resilient-microservicescloud-bits
 https://materializedview.io/p/virtual-machines-are-getting-better
+https://www.openmymind.net/Using-Generics-To-Inject-Stubs-When-Testing
