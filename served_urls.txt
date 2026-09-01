@@ -141,3 +141,4 @@ https://pierrezemb.fr/posts/why-fakes-beat-mocks-and-testcontainers
 https://distributed-computing-musings.com/2026/06/cloud-bits-dancing-through-failures-saga-pattern-for-resilient-microservicescloud-bits
 https://materializedview.io/p/virtual-machines-are-getting-better
 https://www.openmymind.net/Using-Generics-To-Inject-Stubs-When-Testing
+https://planetscale.com/blog/the-history-of-postgres-sharding
