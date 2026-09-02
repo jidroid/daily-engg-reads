@@ -142,3 +142,4 @@ https://distributed-computing-musings.com/2026/06/cloud-bits-dancing-through-fai
 https://materializedview.io/p/virtual-machines-are-getting-better
 https://www.openmymind.net/Using-Generics-To-Inject-Stubs-When-Testing
 https://planetscale.com/blog/the-history-of-postgres-sharding
+https://mydbanotebook.org/posts/order-by-coalescex-0-there-is-no-x
