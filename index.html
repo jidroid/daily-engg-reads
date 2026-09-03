@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Wednesday, September 2, 2026</title>
-  <meta property="og:title" content="ORDER BY coalesce(x, 0): there is no x">
-  <meta property="og:description" content="I was reading Markus Winand&amp;rsquo;s latest post on ORDER BY history last week. If you haven&amp;rsquo;t read it yet, go read it. Markus is one of the best writers on SQL standards, and this post is no exception. One line stopped me cold. The compatibility table for &amp;ldquo;expressions on selected columns.&amp;rdquo; Postgres: partial. PostgreSQL 18: still…">
+  <title>Daily Eng Read — Thursday, September 3, 2026</title>
+  <meta property="og:title" content="Cache-Friendly B+Tree Nodes With Dynamic Fanout">
+  <meta property="og:description" content="For a high-performance B+Tree, the memory layout of each node must be a single contiguous block. This improves locality of reference, increasing the likelihood that the node&#x27;s contents reside in the CPU cache. In C++, achieving this means forgoing the use of std::vector, as it introduces a layer of indirection through a separate memory allocation.…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Wednesday, September 2, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Thursday, September 3, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://mydbanotebook.org/posts/" target="_blank" rel="noopener">My DBA Notebook</a>
+      <a class="source" href="https://jacobsherin.com/" target="_blank" rel="noopener">Jacob Sherin</a>
       
     </div>
 
-    <h1>ORDER BY coalesce(x, 0): there is no x</h1>
+    <h1>Cache-Friendly B+Tree Nodes With Dynamic Fanout</h1>
 
-    <div class="meta">May 21, 2026</div>
+    <div class="meta">Aug 18, 2025</div>
 
-    <p class="excerpt">I was reading Markus Winand&amp;rsquo;s latest post on ORDER BY history last week. If you haven&amp;rsquo;t read it yet, go read it. Markus is one of the best writers on SQL standards, and this post is no exception. One line stopped me cold. The compatibility table for &amp;ldquo;expressions on selected columns.&amp;rdquo; Postgres: partial. PostgreSQL 18: still…</p>
+    <p class="excerpt">For a high-performance B+Tree, the memory layout of each node must be a single contiguous block. This improves locality of reference, increasing the likelihood that the node&#x27;s contents reside in the CPU cache. In C++, achieving this means forgoing the use of std::vector, as it introduces a layer of indirection through a separate memory allocation.…</p>
 
-    <a class="btn" href="https://mydbanotebook.org/posts/order-by-coalescex-0-there-is-no-x/" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://jacobsherin.com/posts/2025-08-18-bplustree-struct-hack/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
