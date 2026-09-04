@@ -144,3 +144,4 @@ https://www.openmymind.net/Using-Generics-To-Inject-Stubs-When-Testing
 https://planetscale.com/blog/the-history-of-postgres-sharding
 https://mydbanotebook.org/posts/order-by-coalescex-0-there-is-no-x
 https://jacobsherin.com/posts/2025-08-18-bplustree-struct-hack
+https://blog.canoozie.net/the-airlock
