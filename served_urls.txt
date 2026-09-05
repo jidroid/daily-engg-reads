@@ -145,3 +145,4 @@ https://planetscale.com/blog/the-history-of-postgres-sharding
 https://mydbanotebook.org/posts/order-by-coalescex-0-there-is-no-x
 https://jacobsherin.com/posts/2025-08-18-bplustree-struct-hack
 https://blog.canoozie.net/the-airlock
+https://brooker.co.za/blog/2026/06/19/waiting.html
