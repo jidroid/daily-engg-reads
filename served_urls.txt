@@ -146,3 +146,4 @@ https://mydbanotebook.org/posts/order-by-coalescex-0-there-is-no-x
 https://jacobsherin.com/posts/2025-08-18-bplustree-struct-hack
 https://blog.canoozie.net/the-airlock
 https://brooker.co.za/blog/2026/06/19/waiting.html
+https://www.shayon.dev/post/2026/19/software-engineering-when-the-machine-writes-code
