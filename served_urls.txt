@@ -149,3 +149,4 @@ https://brooker.co.za/blog/2026/06/19/waiting.html
 https://www.shayon.dev/post/2026/19/software-engineering-when-the-machine-writes-code
 https://stephenholiday.com/articles/2011/gender-prediction-with-python/index.html
 https://planetscale.com/blog/what-is-a-data-topology
+https://davidgomes.com/worktrees-coding-agents
