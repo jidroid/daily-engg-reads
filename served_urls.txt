@@ -150,3 +150,4 @@ https://www.shayon.dev/post/2026/19/software-engineering-when-the-machine-writes
 https://stephenholiday.com/articles/2011/gender-prediction-with-python/index.html
 https://planetscale.com/blog/what-is-a-data-topology
 https://davidgomes.com/worktrees-coding-agents
+https://justinjaffray.com/functional-dependencies-and-orders
