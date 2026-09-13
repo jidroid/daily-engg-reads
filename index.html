@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Saturday, September 12, 2026</title>
-  <meta property="og:title" content="Cassandra Commit Log">
-  <meta property="og:description" content="Cassandra Commit Log is an append only log that is used to track the mutations made to Column Families and provide durability for those mutations. Every mutation is appended to a Commit Log first before applied to an in memory write-back cache called Memtable. If a Memtable is not flushed to disk to create a SSTable then the mutations stored in it…">
+  <title>Daily Eng Read — Sunday, September 13, 2026</title>
+  <meta property="og:title" content="Durability and Redo Logging">
+  <meta property="og:description" content="The most fundamental property a database can provide is durability. That is, once I’ve told you that your write has been accepted, if a mouse chews through the power cord for the server rack, the write will not be lost. This obviously is only possible to a degree. If someone goes into your SSD with a magnetized needle and a steady hand and tweaks…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Saturday, September 12, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Sunday, September 13, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://distributeddatastore.blogspot.com/" target="_blank" rel="noopener">Distributed Data Store Blog</a>
+      <a class="source" href="https://justinjaffray.com/posts/" target="_blank" rel="noopener">Justin Jaffray</a>
       
     </div>
 
-    <h1>Cassandra Commit Log</h1>
+    <h1>Durability and Redo Logging</h1>
 
-    <div class="meta">by bharatendra boddu (noreply@blogger.com) · May 24, 2021</div>
+    <div class="meta">Jan 24, 2022</div>
 
-    <p class="excerpt">Cassandra Commit Log is an append only log that is used to track the mutations made to Column Families and provide durability for those mutations. Every mutation is appended to a Commit Log first before applied to an in memory write-back cache called Memtable. If a Memtable is not flushed to disk to create a SSTable then the mutations stored in it…</p>
+    <p class="excerpt">The most fundamental property a database can provide is durability. That is, once I’ve told you that your write has been accepted, if a mouse chews through the power cord for the server rack, the write will not be lost. This obviously is only possible to a degree. If someone goes into your SSD with a magnetized needle and a steady hand and tweaks…</p>
 
-    <a class="btn" href="https://distributeddatastore.blogspot.com/2021/05/commit-log.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://justinjaffray.com/durability-and-redo-logging/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
