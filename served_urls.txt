@@ -154,3 +154,4 @@ https://justinjaffray.com/functional-dependencies-and-orders
 https://www.allthingsdistributed.com/2026/08/on-building-scalable-control-planes.html?utm_campaign=inbound&utm_source=rss
 https://distributeddatastore.blogspot.com/2021/05/commit-log.html
 https://justinjaffray.com/durability-and-redo-logging
+https://shbhmrzd.github.io/personal/reflections/2026/03/15/running-a-metaphor-for-life.html
