@@ -155,3 +155,4 @@ https://www.allthingsdistributed.com/2026/08/on-building-scalable-control-planes
 https://distributeddatastore.blogspot.com/2021/05/commit-log.html
 https://justinjaffray.com/durability-and-redo-logging
 https://shbhmrzd.github.io/personal/reflections/2026/03/15/running-a-metaphor-for-life.html
+https://smalldatum.blogspot.com/2026/06/hammerdb-tproc-c-on-large-server.html
