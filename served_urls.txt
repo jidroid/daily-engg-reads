@@ -157,3 +157,4 @@ https://justinjaffray.com/durability-and-redo-logging
 https://shbhmrzd.github.io/personal/reflections/2026/03/15/running-a-metaphor-for-life.html
 https://smalldatum.blogspot.com/2026/06/hammerdb-tproc-c-on-large-server.html
 https://ratfactor.com/slackware/apache-php-fpm
+https://www.pinaraf.info/2025/10/jit-so-you-want-to-be-faster-than-an-interpreter-on-modern-cpus
