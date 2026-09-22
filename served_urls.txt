@@ -162,3 +162,4 @@ https://blog.jcole.us/2023/02/20/upgrading-a-giant-explore-e-2-with-the-rohloff-
 https://mydbanotebook.org/posts/postgres-performance-regression-are-we-there-yet
 https://blog.canoozie.net/many-schedulers-one-commit-loop
 https://buttondown.com/jaffray/archive/divergent-histories
+https://justinjaffray.com/deduplicating-decklists
