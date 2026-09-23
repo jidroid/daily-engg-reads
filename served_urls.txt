@@ -163,3 +163,4 @@ https://mydbanotebook.org/posts/postgres-performance-regression-are-we-there-yet
 https://blog.canoozie.net/many-schedulers-one-commit-loop
 https://buttondown.com/jaffray/archive/divergent-histories
 https://justinjaffray.com/deduplicating-decklists
+https://laplab.me/posts/rust-streams-gotcha
