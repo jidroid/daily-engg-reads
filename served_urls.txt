@@ -164,3 +164,4 @@ https://blog.canoozie.net/many-schedulers-one-commit-loop
 https://buttondown.com/jaffray/archive/divergent-histories
 https://justinjaffray.com/deduplicating-decklists
 https://laplab.me/posts/rust-streams-gotcha
+https://davidgomes.com/running-a-sub-2h45m-marathon
