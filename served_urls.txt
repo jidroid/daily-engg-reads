@@ -171,3 +171,4 @@ https://peter.eisentraut.org/blog/2025/06/24/waiting-for-sql-202y-vectors
 https://00f.net/2026/09/09/base84
 https://sitano.github.io/memory/kernel/2021/08/10/what-is-kernel-mavailable
 https://blog.canoozie.net/gangs-fabric-and-googput
+https://postgresql.verite.pro/blog/2024/07/15/uuid-v7-pure-sql.html
