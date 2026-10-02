@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Thursday, October 1, 2026</title>
-  <meta property="og:title" content="Implementing UUIDs v7 in pure SQL">
-  <meta property="og:description" content="In May 2024, the IETF standard on UUIDs (Universally Unique IDentifiers) has been updated with RFC 9562, finally officializing the UUID Version 7. This version is known to be a much better choice for database indexes than previous ones, since it has values generated consecutively already sorted. PostgreSQL does not yet have a built-in function to…">
+  <title>Daily Eng Read — Friday, October 2, 2026</title>
+  <meta property="og:title" content="pg_plan_alternatives: Tracing PostgreSQL’s Query Plan Alternatives using eBPF">
+  <meta property="og:description" content="PostgreSQL uses a cost-based optimizer (CBO) to determine the best execution plan for a given query. The optimizer considers multiple alternative plans during the planning phase. Using the EXPLAIN command, a user can only inspect the chosen plan, but not the alternatives that were considered. To address this gap, I developed pg_plan_alternatives,…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Thursday, October 1, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Friday, October 2, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://postgresql.verite.pro/blog/" target="_blank" rel="noopener">PostgreSQL Verite</a>
+      <a class="source" href="https://jnidzwetzki.github.io/" target="_blank" rel="noopener">Jan Nidzwetzki</a>
       
     </div>
 
-    <h1>Implementing UUIDs v7 in pure SQL</h1>
+    <h1>pg_plan_alternatives: Tracing PostgreSQL’s Query Plan Alternatives using eBPF</h1>
 
-    <div class="meta">by Daniel Vérité · Jul 15, 2024</div>
+    <div class="meta">by Jan Nidzwetzki · Mar 4, 2026</div>
 
-    <p class="excerpt">In May 2024, the IETF standard on UUIDs (Universally Unique IDentifiers) has been updated with RFC 9562, finally officializing the UUID Version 7. This version is known to be a much better choice for database indexes than previous ones, since it has values generated consecutively already sorted. PostgreSQL does not yet have a built-in function to…</p>
+    <p class="excerpt">PostgreSQL uses a cost-based optimizer (CBO) to determine the best execution plan for a given query. The optimizer considers multiple alternative plans during the planning phase. Using the EXPLAIN command, a user can only inspect the chosen plan, but not the alternatives that were considered. To address this gap, I developed pg_plan_alternatives,…</p>
 
-    <a class="btn" href="https://postgresql.verite.pro/blog/2024/07/15/uuid-v7-pure-sql.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://jnidzwetzki.github.io/2026/03/04/pg-plan-alternatives.html" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
