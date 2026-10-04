@@ -174,3 +174,4 @@ https://blog.canoozie.net/gangs-fabric-and-googput
 https://postgresql.verite.pro/blog/2024/07/15/uuid-v7-pure-sql.html
 https://jnidzwetzki.github.io/2026/03/04/pg-plan-alternatives.html
 https://blog.canoozie.net/identity
+https://stephenholiday.com/articles/2010/new-site/index.html
