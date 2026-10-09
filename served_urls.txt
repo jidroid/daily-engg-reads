@@ -179,3 +179,4 @@ https://ziglang.org/devlog/2026/#2026-06-26
 https://muratbuffalo.blogspot.com/2026/08/composition-and-modular-verification-of.html
 https://rhaas.blogspot.com/2026/06/hacking-workshop-for-junejuly-2026.html
 https://brooker.co.za/blog/2026/09/28/engineering-system-one.html
+https://sirupsen.com/napkin/problem-9
