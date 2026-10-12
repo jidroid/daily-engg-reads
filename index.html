@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Sunday, October 11, 2026</title>
-  <meta property="og:title" content="CPU-bound sysbench on a large server: Postgres, MySQL and MariaDB">
-  <meta property="og:description" content="This post has results for CPU-bound sysbench vs Postgres, MySQL and MariaDB on a large server using older and newer releases.&amp;nbsp;The goal is to measure:how performance changes over time from old versions to new versionsperformance between modern MySQL, MariaDB and PostgresThe context here is a collection of microbenchmarks using a large server…">
+  <title>Daily Eng Read — Monday, October 12, 2026</title>
+  <meta property="og:title" content="C++ StringView 优化字符串比较">
+  <meta property="og:description" content="DuckDB / Velox / Umbra 里面常见的字符串表示方式. 和传统的 SimpleStr (ptr, len) 相比, 都是 16 字节, 但是 layout 不同. SimpleStr: [ ptr (8B) ][ len (4B) ][ pad (4B) ] StringView: 短字符串 (len ≤ 12): [ len (4B) ][ inline_data (12B) ] 长字符串 (len &amp;gt; 12): [ len (4B) ][ prefix (4B) ][ ptr (8B) ] 两个优化点: 短字符串直接 inline 存在 struct 里, 比较的时候完全不需要 deref ptr. 长字符串把前 4 个字节的 prefix 存在 struct…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Sunday, October 11, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Monday, October 12, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://smalldatum.blogspot.com/" target="_blank" rel="noopener">Mark Callaghan (Small Datum)</a>
+      <a class="source" href="https://baotiao.github.io/" target="_blank" rel="noopener">Baotiao</a>
       
     </div>
 
-    <h1>CPU-bound sysbench on a large server: Postgres, MySQL and MariaDB</h1>
+    <h1>C++ StringView 优化字符串比较</h1>
 
-    <div class="meta">by Mark Callaghan (noreply@blogger.com) · Apr 4, 2026</div>
+    <div class="meta">by baotiao · Apr 24, 2026</div>
 
-    <p class="excerpt">This post has results for CPU-bound sysbench vs Postgres, MySQL and MariaDB on a large server using older and newer releases.&amp;nbsp;The goal is to measure:how performance changes over time from old versions to new versionsperformance between modern MySQL, MariaDB and PostgresThe context here is a collection of microbenchmarks using a large server…</p>
+    <p class="excerpt">DuckDB / Velox / Umbra 里面常见的字符串表示方式. 和传统的 SimpleStr (ptr, len) 相比, 都是 16 字节, 但是 layout 不同. SimpleStr: [ ptr (8B) ][ len (4B) ][ pad (4B) ] StringView: 短字符串 (len ≤ 12): [ len (4B) ][ inline_data (12B) ] 长字符串 (len &amp;gt; 12): [ len (4B) ][ prefix (4B) ][ ptr (8B) ] 两个优化点: 短字符串直接 inline 存在 struct 里, 比较的时候完全不需要 deref ptr. 长字符串把前 4 个字节的 prefix 存在 struct…</p>
 
-    <a class="btn" href="https://smalldatum.blogspot.com/2026/04/cpu-bound-sysbench-on-large-server.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="http://baotiao.github.io/2026/04/24/cpp-stringview.html" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>

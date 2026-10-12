@@ -182,3 +182,4 @@ https://brooker.co.za/blog/2026/09/28/engineering-system-one.html
 https://sirupsen.com/napkin/problem-9
 https://www.pinaraf.info/2024/03/look-ma-i-wrote-a-new-jit-compiler-for-postgresql
 https://smalldatum.blogspot.com/2026/04/cpu-bound-sysbench-on-large-server.html
+https://baotiao.github.io/2026/04/24/cpp-stringview.html
