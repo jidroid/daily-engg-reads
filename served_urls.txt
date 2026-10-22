@@ -192,3 +192,4 @@ https://feyor.sh/blog/infecting-the-steam-link-with-nixos
 https://materializedview.io/p/mcp-server-could-have-been-json-file
 https://jhellerstein.github.io/blog/research-tips
 https://andrewkelley.me/post/openzfs-bug-ported-zig.html
+https://andrewkelley.me/post/why-we-cant-have-nice-software.html
