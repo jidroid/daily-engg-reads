@@ -199,3 +199,4 @@ https://00f.net/2026/10/06/zeroization-3
 https://tumuchdata.club/post/data-skipping
 https://emptysqua.re/blog/sigmod-2026
 https://www.vinniefalco.com/p/how-long-until-modern-c-is-just-c
+https://sirupsen.com/napkin/problem-12-recommendations
