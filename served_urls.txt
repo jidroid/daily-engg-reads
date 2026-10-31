@@ -201,3 +201,4 @@ https://emptysqua.re/blog/sigmod-2026
 https://www.vinniefalco.com/p/how-long-until-modern-c-is-just-c
 https://sirupsen.com/napkin/problem-12-recommendations
 https://www.morling.dev/blog/row-group-control-faster-s3-reads-footer-caching-hardwood-1-1-0-beta2
+https://mydbanotebook.org/posts/work_mem-its-a-trap
