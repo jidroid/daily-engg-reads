@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Saturday, October 31, 2026</title>
-  <meta property="og:title" content="work_mem: it&#x27;s a trap!">
-  <meta property="og:description" content="My friend Henrietta Dombrovskaya pinged me on Telegram. Her production cluster had just been killed by the OOM killer after eating 2 TB of RAM. work_mem was set to 2 MB. Something didn&amp;rsquo;t add up. Hetty, like me, likes playing with monster hardware. 2 TB of RAM is not unusual in her world. But losing the whole cluster to a single query during…">
+  <title>Daily Eng Read — Sunday, November 1, 2026</title>
+  <meta property="og:title" content="Practical Hurdles In Crab Latching Concurrency">
+  <meta property="og:description" content="This post contains challenges I faced in implementing a thread-safe, concurrent B+Tree implementation. You can find the code here and tests here. A lot of engineering effort in code reviews, tests, analyzers (ThreadSanitizer) was required to finally arrive at an implementation without deadlocks and data races. You will see that the same thinking…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Saturday, October 31, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Sunday, November 1, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://mydbanotebook.org/posts/" target="_blank" rel="noopener">My DBA Notebook</a>
+      <a class="source" href="https://jacobsherin.com/" target="_blank" rel="noopener">Jacob Sherin</a>
       
     </div>
 
-    <h1>work_mem: it&#x27;s a trap!</h1>
+    <h1>Practical Hurdles In Crab Latching Concurrency</h1>
 
-    <div class="meta">Mar 11, 2026</div>
+    <div class="meta">Oct 13, 2025</div>
 
-    <p class="excerpt">My friend Henrietta Dombrovskaya pinged me on Telegram. Her production cluster had just been killed by the OOM killer after eating 2 TB of RAM. work_mem was set to 2 MB. Something didn&amp;rsquo;t add up. Hetty, like me, likes playing with monster hardware. 2 TB of RAM is not unusual in her world. But losing the whole cluster to a single query during…</p>
+    <p class="excerpt">This post contains challenges I faced in implementing a thread-safe, concurrent B+Tree implementation. You can find the code here and tests here. A lot of engineering effort in code reviews, tests, analyzers (ThreadSanitizer) was required to finally arrive at an implementation without deadlocks and data races. You will see that the same thinking…</p>
 
-    <a class="btn" href="https://mydbanotebook.org/posts/work_mem-its-a-trap/" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://jacobsherin.com/posts/2025-10-13-bplustree-concurrency-challenges/" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
