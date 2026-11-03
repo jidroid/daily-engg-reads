@@ -204,3 +204,4 @@ https://www.morling.dev/blog/row-group-control-faster-s3-reads-footer-caching-ha
 https://mydbanotebook.org/posts/work_mem-its-a-trap
 https://jacobsherin.com/posts/2025-10-13-bplustree-concurrency-challenges
 https://ziglang.org/devlog/2026/#2026-10-13
+https://www.pinaraf.info/2013/07/review-postgresql-server-programming
