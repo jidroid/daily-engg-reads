@@ -208,3 +208,4 @@ https://www.pinaraf.info/2013/07/review-postgresql-server-programming
 https://jack-vanlightly.com/blog/2026/6/30/benchmarking-hardwood-10-on-a-threadripper-9980x
 https://jhellerstein.github.io/blog/sigmod-optimism
 https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe.html
+https://ananthakumaran.in/2026/08/30/pimacs.html
