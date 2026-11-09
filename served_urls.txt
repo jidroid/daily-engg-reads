@@ -210,3 +210,4 @@ https://jhellerstein.github.io/blog/sigmod-optimism
 https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe.html
 https://ananthakumaran.in/2026/08/30/pimacs.html
 https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer/des
+https://blog.jcole.us/2021/01/01/i-learned-to-read-at-20-years-old
