@@ -211,3 +211,4 @@ https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe
 https://ananthakumaran.in/2026/08/30/pimacs.html
 https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer/des
 https://blog.jcole.us/2021/01/01/i-learned-to-read-at-20-years-old
+https://redixhumayun.github.io/async/2024/10/10/async-runtimes-part-iii.html
