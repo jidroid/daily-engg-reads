@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Eng Read — Tuesday, November 10, 2026</title>
-  <meta property="og:title" content="Async Runtimes Part III">
-  <meta property="og:description" content="Here’s a link to the code on GitHub. This post is the third in a series about exploring what exactly an async runtime is, and what async I/O really means. Here is a link to part I where I built a basic future in Rust and polled it to completion with an executor, and here is part II, where I built a simple event loop which uses the kqueue async io…">
+  <title>Daily Eng Read — Wednesday, November 11, 2026</title>
+  <meta property="og:title" content="Designing a planned switchover for minimum disruption">
+  <meta property="og:description" content="A Neki shard consists of one Postgres primary and multiple replicas. The primary accepts writes; the replicas do not. From time to time, we need one of those replicas to take over as the primary. We may be replacing a (Kubernetes) pod, upgrading the kernel, or moving the primary to another cell.This is what we call a planned switchover. As opposed…">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -137,20 +137,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="date-label">Today's Engineering Read &mdash; Tuesday, November 10, 2026</div>
+    <div class="date-label">Today's Engineering Read &mdash; Wednesday, November 11, 2026</div>
 
     <div class="source-row">
-      <a class="source" href="https://redixhumayun.github.io/" target="_blank" rel="noopener">Humayun (redixhumayun)</a>
+      <a class="source" href="https://planetscale.com/blog" target="_blank" rel="noopener">PlanetScale Blog</a>
       
     </div>
 
-    <h1>Async Runtimes Part III</h1>
+    <h1>Designing a planned switchover for minimum disruption</h1>
 
-    <div class="meta">Oct 10, 2024</div>
+    <div class="meta">by Shlomi Noach · Oct 29, 2026</div>
 
-    <p class="excerpt">Here’s a link to the code on GitHub. This post is the third in a series about exploring what exactly an async runtime is, and what async I/O really means. Here is a link to part I where I built a basic future in Rust and polled it to completion with an executor, and here is part II, where I built a simple event loop which uses the kqueue async io…</p>
+    <p class="excerpt">A Neki shard consists of one Postgres primary and multiple replicas. The primary accepts writes; the replicas do not. From time to time, we need one of those replicas to take over as the primary. We may be replacing a (Kubernetes) pod, upgrading the kernel, or moving the primary to another cell.This is what we call a planned switchover. As opposed…</p>
 
-    <a class="btn" href="https://redixhumayun.github.io/async/2024/10/10/async-runtimes-part-iii.html" target="_blank" rel="noopener">Read Post &rarr;</a>
+    <a class="btn" href="https://planetscale.com/blog/designing-a-planned-switchover-for-minimum-disruption" target="_blank" rel="noopener">Read Post &rarr;</a>
 
     <div class="footer">
       <span>Refreshes daily &middot; 87 blogs in rotation</span>
