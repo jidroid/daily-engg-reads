@@ -213,3 +213,4 @@ https://sookocheff.com/post/cryptography/cryptography-for-the-everyday-developer
 https://blog.jcole.us/2021/01/01/i-learned-to-read-at-20-years-old
 https://redixhumayun.github.io/async/2024/10/10/async-runtimes-part-iii.html
 https://planetscale.com/blog/designing-a-planned-switchover-for-minimum-disruption
+https://jhellerstein.github.io/blog/crdt-turtles
