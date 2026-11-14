@@ -215,3 +215,4 @@ https://redixhumayun.github.io/async/2024/10/10/async-runtimes-part-iii.html
 https://planetscale.com/blog/designing-a-planned-switchover-for-minimum-disruption
 https://jhellerstein.github.io/blog/crdt-turtles
 https://databasearchitects.blogspot.com/2026/10/the-benchmarking-crisis.html
+https://www.hammerdb.com/blog/uncategorized/hammerdb-v6-0-active-session-history-adds-mariadb-and-mysql
