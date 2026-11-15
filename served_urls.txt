@@ -216,3 +216,4 @@ https://planetscale.com/blog/designing-a-planned-switchover-for-minimum-disrupti
 https://jhellerstein.github.io/blog/crdt-turtles
 https://databasearchitects.blogspot.com/2026/10/the-benchmarking-crisis.html
 https://www.hammerdb.com/blog/uncategorized/hammerdb-v6-0-active-session-history-adds-mariadb-and-mysql
+https://blog.jcole.us/2025/01/01/reflections-on-a-year-of-biking-for-2024
