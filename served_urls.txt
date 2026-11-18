@@ -219,3 +219,4 @@ https://www.hammerdb.com/blog/uncategorized/hammerdb-v6-0-active-session-history
 https://blog.jcole.us/2025/01/01/reflections-on-a-year-of-biking-for-2024
 https://stephenholiday.com/articles/2011/stack-overflow-by-day/index.html
 https://fsgeek.ca/log/the-office-of-necessary-forgetting
+https://antonz.org/on-go-tours
