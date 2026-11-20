@@ -221,3 +221,4 @@ https://stephenholiday.com/articles/2011/stack-overflow-by-day/index.html
 https://fsgeek.ca/log/the-office-of-necessary-forgetting
 https://antonz.org/on-go-tours
 https://fsgeek.ca/log/the-risks-of-using-gemini-code
+https://ziglang.org/devlog/2026/#2026-05-30
