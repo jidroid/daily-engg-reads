@@ -222,3 +222,4 @@ https://fsgeek.ca/log/the-office-of-necessary-forgetting
 https://antonz.org/on-go-tours
 https://fsgeek.ca/log/the-risks-of-using-gemini-code
 https://ziglang.org/devlog/2026/#2026-05-30
+https://emptysqua.re/blog/issre-2026-recap
